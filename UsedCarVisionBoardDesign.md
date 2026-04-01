@@ -8,11 +8,11 @@ There should be two sections of the website - The first, which should be develop
 
 Once we complete that part of the site we will pull real world data of used cars regularly and create scripts to enable this and refresh reports. 
 
-### Brands / Car Mkaes We Like
-Nissan, Toyota, Mercedes. Cars must be purchasable within the United States. 
+### Brands / Car Makes We Like
+Nissan, Toyota, Mercedes, Lincoln. Cars must be purchasable within the United States. 
 
 ### Brands to Exclude
-Our max price range is $80,000. We are not looking for Ferrarri, McLarens. We also do not like Tesla. 
+Our max price range is $80,000. We are not looking for Ferrari, McLarens. We also do not like Tesla. 
 
 ### Features of the Website & Reports
 1. We want to have cars organized into low, medium, and high range options for both new and used cards. 
