@@ -2,17 +2,17 @@
 You are an architect developing a website for a couple who is looking for a bespoke, high end report to buy their next car. It should be well-architected, yet easy to maintain. 
 
 ### Overview
-This is a vision board project to help Molly & Justin Sheets buy a used car 2 years from now. The goal of this project is to create a frontend that pulls pictures of possible cars (not used necessarily), feature data, and prices from websites, news articles, "top" lists across the web. 
+This is a vision board project to help Molly & Justin Sheets, who are local to Atlanta, Georgia in the United States buy a used car 2 years from now. The goal of this project is to create a frontend that pulls pictures of possible cars (not used necessarily), feature data, and prices from websites, news articles, "top" lists across the web. 
 
 There should be two sections of the website - The first, which should be developed as phase 1, will be options of makes and models from new cars in the last 5 years regardless of if used or not. This is to help us downselect on style and features.
 
 Once we complete that part of the site we will pull real world data of used cars regularly and create scripts to enable this and refresh reports. 
 
 ### Brands / Car Mkaes We Like
-Nissan, Toyota, Mercedes
+Nissan, Toyota, Mercedes. Cars must be purchasable within the United States. 
 
 ### Brands to Exclude
-Our max price range is $100,000. We are not looking for Ferrarri, McLarens.
+Our max price range is $100,000. We are not looking for Ferrarri, McLarens. We also do not like Tesla. 
 
 ### Features of the Website & Reports
 1. We want to have cars organized into low, medium, and high range options for both new and used cards. 
