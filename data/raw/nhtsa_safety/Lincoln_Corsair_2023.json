@@ -1,0 +1,24 @@
+[
+  {
+    "vehicle_id": 17357,
+    "description": "2023 Lincoln Corsair SUV AWD",
+    "overall": 5,
+    "front_crash": 5,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard & Optional",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/17357"
+  },
+  {
+    "vehicle_id": 17356,
+    "description": "2023 Lincoln Corsair SUV FWD",
+    "overall": 5,
+    "front_crash": 5,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard & Optional",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/17356"
+  }
+]

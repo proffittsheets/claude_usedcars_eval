@@ -1,0 +1,24 @@
+[
+  {
+    "vehicle_id": 15550,
+    "description": "2021 Nissan Armada SUV AWD",
+    "overall": null,
+    "front_crash": null,
+    "side_crash": null,
+    "rollover": 3,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/15550"
+  },
+  {
+    "vehicle_id": 15538,
+    "description": "2021 Nissan Armada SUV RWD",
+    "overall": null,
+    "front_crash": null,
+    "side_crash": null,
+    "rollover": 3,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/15538"
+  }
+]

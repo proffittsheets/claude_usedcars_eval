@@ -59,17 +59,19 @@ MODEL_URL_SLUGS = {
         "Camry": "camry",
     },
     "Nissan": {
-        "Pathfinder": "pathfinder",
-        "Murano": "murano",
-        "Armada": "armada",
-        "Rogue": "rogue",
-        "Altima": "altima",
+        # SUVs use /vehicles/crossovers-suvs/, Altima uses /vehicles/cars/
+        "Pathfinder": ("crossovers-suvs", "pathfinder"),
+        "Murano": ("crossovers-suvs", "murano"),
+        "Armada": ("crossovers-suvs", "armada"),
+        "Rogue": ("crossovers-suvs", "rogue"),
+        "Altima": ("cars", "altima"),
     },
     "Mercedes-Benz": {
-        "GLC": "glc",
-        "GLE": "gle",
-        "GLS": "gls",
-        "C-Class": "c-class",
+        # SUVs use /en/vehicles/build/{slug}/suv, C-Class uses /sedan
+        "GLC": ("glc", "suv"),
+        "GLE": ("gle", "suv"),
+        "GLS": ("gls", "suv"),
+        "C-Class": ("c-class", "sedan"),
     },
     "Lincoln": {
         "Corsair": "corsair",
@@ -93,13 +95,17 @@ def get_model_url(make: str, model: str) -> Optional[str]:
     if not slug:
         return None
     base = BRAND_BASE_URLS.get(make, "")
-    urls = {
-        "Toyota": f"{base}/{slug}/",
-        "Nissan": f"{base}/vehicles/{slug}/",
-        "Mercedes-Benz": f"{base}/en/vehicles/class/{slug}/overview.html",
-        "Lincoln": f"{base}/vehicles/{slug}/",
-    }
-    return urls.get(make)
+    if make == "Toyota":
+        return f"{base}/{slug}/"
+    elif make == "Nissan":
+        category, name = slug
+        return f"{base}/vehicles/{category}/{name}.html"
+    elif make == "Mercedes-Benz":
+        model_slug, body_type = slug
+        return f"{base}/en/vehicles/build/{model_slug}/{body_type}"
+    elif make == "Lincoln":
+        return f"{base}/vehicles/{slug}/"
+    return None
 
 
 def fetch_page(url: str) -> Optional[BeautifulSoup]:

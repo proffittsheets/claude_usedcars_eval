@@ -1,0 +1,24 @@
+[
+  {
+    "vehicle_id": 18410,
+    "description": "2023 Nissan Rogue SUV AWD",
+    "overall": 5,
+    "front_crash": 4,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/18410"
+  },
+  {
+    "vehicle_id": 18409,
+    "description": "2023 Nissan Rogue SUV FWD",
+    "overall": 5,
+    "front_crash": 4,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/18409"
+  }
+]

@@ -25,12 +25,22 @@ def test_get_model_url_toyota():
 
 def test_get_model_url_nissan():
     url = get_model_url("Nissan", "Rogue")
-    assert url == "https://www.nissanusa.com/vehicles/rogue/"
+    assert url == "https://www.nissanusa.com/vehicles/crossovers-suvs/rogue.html"
+
+
+def test_get_model_url_nissan_altima():
+    url = get_model_url("Nissan", "Altima")
+    assert url == "https://www.nissanusa.com/vehicles/cars/altima.html"
 
 
 def test_get_model_url_mercedes():
     url = get_model_url("Mercedes-Benz", "GLC")
-    assert url == "https://www.mbusa.com/en/vehicles/class/glc/overview.html"
+    assert url == "https://www.mbusa.com/en/vehicles/build/glc/suv"
+
+
+def test_get_model_url_mercedes_c_class():
+    url = get_model_url("Mercedes-Benz", "C-Class")
+    assert url == "https://www.mbusa.com/en/vehicles/build/c-class/sedan"
 
 
 def test_get_model_url_lincoln():

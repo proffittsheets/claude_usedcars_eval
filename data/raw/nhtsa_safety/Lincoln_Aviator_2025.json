@@ -1,0 +1,24 @@
+[
+  {
+    "vehicle_id": 20053,
+    "description": "2025 Lincoln Aviator SUV 4WD",
+    "overall": 5,
+    "front_crash": 5,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/20053"
+  },
+  {
+    "vehicle_id": 20052,
+    "description": "2025 Lincoln Aviator SUV RWD",
+    "overall": 5,
+    "front_crash": 5,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/20052"
+  }
+]

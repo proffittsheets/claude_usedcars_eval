@@ -1,0 +1,24 @@
+[
+  {
+    "vehicle_id": 19637,
+    "description": "2024 Mercedes-Benz GLE SUV AWD",
+    "overall": null,
+    "front_crash": null,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Optional",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/19637"
+  },
+  {
+    "vehicle_id": 19636,
+    "description": "2024 Mercedes-Benz GLE SUV RWD",
+    "overall": null,
+    "front_crash": null,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Optional",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/19636"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "vehicle_id": 16050,
+    "description": "2021 Nissan Rogue SUV FWD Later Release",
+    "overall": 4,
+    "front_crash": 4,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/16050"
+  },
+  {
+    "vehicle_id": 16049,
+    "description": "2021 Nissan Rogue SUV AWD Later Release",
+    "overall": 4,
+    "front_crash": 4,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/16049"
+  },
+  {
+    "vehicle_id": 15551,
+    "description": "2021 Nissan Rogue SUV AWD Earlier Release",
+    "overall": 4,
+    "front_crash": 3,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/15551"
+  },
+  {
+    "vehicle_id": 15539,
+    "description": "2021 Nissan Rogue SUV FWD Earlier Release",
+    "overall": 4,
+    "front_crash": 3,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/15539"
+  }
+]

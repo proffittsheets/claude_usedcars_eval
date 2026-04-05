@@ -1,0 +1,24 @@
+[
+  {
+    "vehicle_id": 19173,
+    "description": "2024 Lincoln Corsair SUV AWD",
+    "overall": 5,
+    "front_crash": 5,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/19173"
+  },
+  {
+    "vehicle_id": 19172,
+    "description": "2024 Lincoln Corsair SUV FWD",
+    "overall": 5,
+    "front_crash": 5,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/19172"
+  }
+]

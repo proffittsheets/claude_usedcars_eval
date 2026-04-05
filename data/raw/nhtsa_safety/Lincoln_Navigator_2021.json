@@ -1,0 +1,24 @@
+[
+  {
+    "vehicle_id": 15451,
+    "description": "2021 Lincoln Navigator SUV 4WD",
+    "overall": 5,
+    "front_crash": 5,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Optional",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/15451"
+  },
+  {
+    "vehicle_id": 15416,
+    "description": "2021 Lincoln Navigator SUV 2WD",
+    "overall": 5,
+    "front_crash": 5,
+    "side_crash": 5,
+    "rollover": 3,
+    "forward_collision_warning": "Optional",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/15416"
+  }
+]

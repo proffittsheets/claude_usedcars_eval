@@ -1,0 +1,24 @@
+[
+  {
+    "vehicle_id": 16827,
+    "description": "2022 Nissan Murano SUV AWD",
+    "overall": 5,
+    "front_crash": 5,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/16827"
+  },
+  {
+    "vehicle_id": 16814,
+    "description": "2022 Nissan Murano SUV FWD",
+    "overall": 5,
+    "front_crash": 5,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/16814"
+  }
+]

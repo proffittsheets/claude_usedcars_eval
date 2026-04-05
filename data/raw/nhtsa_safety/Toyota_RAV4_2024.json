@@ -1,0 +1,24 @@
+[
+  {
+    "vehicle_id": 19443,
+    "description": "2024 Toyota RAV4 SUV AWD",
+    "overall": 5,
+    "front_crash": 4,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/19443"
+  },
+  {
+    "vehicle_id": 19442,
+    "description": "2024 Toyota RAV4 SUV FWD",
+    "overall": 5,
+    "front_crash": 4,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/19442"
+  }
+]

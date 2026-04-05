@@ -1,0 +1,24 @@
+[
+  {
+    "vehicle_id": 17362,
+    "description": "2023 Lincoln Navigator SUV 4WD",
+    "overall": null,
+    "front_crash": null,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard & Optional",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/17362"
+  },
+  {
+    "vehicle_id": 17361,
+    "description": "2023 Lincoln Navigator SUV RWD",
+    "overall": null,
+    "front_crash": null,
+    "side_crash": 5,
+    "rollover": 3,
+    "forward_collision_warning": "Standard & Optional",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/17361"
+  }
+]

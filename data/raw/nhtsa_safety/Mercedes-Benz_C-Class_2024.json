@@ -1,0 +1,24 @@
+[
+  {
+    "vehicle_id": 19608,
+    "description": "2024 Mercedes-Benz C-Class 4 DR AWD",
+    "overall": null,
+    "front_crash": null,
+    "side_crash": null,
+    "rollover": null,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Optional",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/19608"
+  },
+  {
+    "vehicle_id": 19607,
+    "description": "2024 Mercedes-Benz C-Class 4 DR RWD",
+    "overall": null,
+    "front_crash": null,
+    "side_crash": null,
+    "rollover": null,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Optional",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/19607"
+  }
+]
