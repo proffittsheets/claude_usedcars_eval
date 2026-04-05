@@ -63,7 +63,7 @@
   <h2>Specifications</h2>
   <dl class="spec-grid">
     <dt>Base MSRP</dt>
-    <dd>${{ "{:,.0f}".format(car.msrp_usd) }}</dd>
+    <dd>${{ "{:,.0f}".format(car.msrp_usd) }}{% if car.msrp_estimated %} <span class="msrp-est" title="2026 pricing not yet announced — estimated from prior year">est.</span>{% endif %}</dd>
 
     {% if car.seats %}
     <dt>Seating</dt>

@@ -97,7 +97,8 @@ def get_images_for_model(make: str, model: str, year: int, manifest: dict) -> Di
             if e.get("make") == make and e.get("model") == model and e.get("year") == year
         ]
         if entries:
-            return {"exterior": [e["local_path"] for e in entries], "interior": []}
+            paths = [f"data/raw/images/{e['local_path']}" for e in entries]
+            return {"exterior": paths, "interior": []}
     return {"exterior": [], "interior": []}
 
 
@@ -118,11 +119,14 @@ def build_entry(
 
     # Determine MSRP
     msrp = None
+    msrp_estimated = False
     if cq_trim and cq_trim.get("msrp_usd"):
         msrp = cq_trim["msrp_usd"]
     if not msrp:
         year_str = str(year)
         msrp = (msrp_seed.get(make, {}).get(model, {}).get(year_str))
+        if msrp and year >= 2026:
+            msrp_estimated = True
 
     if msrp is None:
         logger.warning("No MSRP for %s %s %d — skipping", make, model, year)
@@ -173,6 +177,7 @@ def build_entry(
         "is_hybrid": fe_record.get("is_hybrid", False) if fe_record else False,
         "price_tier": get_price_tier(msrp),
         "msrp_usd": msrp,
+        "msrp_estimated": msrp_estimated,
         "seats": seats,
         "mpg_city": fe_record.get("mpg_city") if fe_record else None,
         "mpg_highway": fe_record.get("mpg_highway") if fe_record else None,

@@ -1,32 +1,33 @@
 {
   "_note": "IIHS Top Safety Pick status manually curated. Update each spring when IIHS releases new awards. Source: https://www.iihs.org/ratings/top-safety-picks",
-  "_last_updated": "2026-04-04",
+  "_last_updated": "2026-04-05",
+  "_2026_note": "2026 IIHS awards not yet published — ratings carried forward from 2025 as estimates and marked with est:true in build_catalog.py",
   "Toyota": {
-    "RAV4":       { "2024": "Top Safety Pick+", "2023": "Top Safety Pick+", "2022": "Top Safety Pick", "2021": "Top Safety Pick" },
-    "Highlander": { "2024": "Top Safety Pick+", "2023": "Top Safety Pick+", "2022": "Top Safety Pick+", "2021": "Top Safety Pick" },
-    "Sienna":     { "2024": "Top Safety Pick", "2023": "Top Safety Pick", "2022": "Top Safety Pick", "2021": null },
-    "Venza":      { "2024": "Top Safety Pick+", "2023": "Top Safety Pick+", "2022": "Top Safety Pick+", "2021": "Top Safety Pick+" },
-    "4Runner":    { "2024": null, "2023": null, "2022": null, "2021": null },
-    "Sequoia":    { "2024": null, "2023": null, "2022": null, "2021": null },
-    "Camry":      { "2024": "Top Safety Pick+", "2023": "Top Safety Pick+", "2022": "Top Safety Pick+", "2021": "Top Safety Pick" }
+    "RAV4":       { "2024": "Top Safety Pick+", "2025": "Top Safety Pick+", "2026": null },
+    "Highlander": { "2024": "Top Safety Pick+", "2025": "Top Safety Pick+", "2026": null },
+    "Sienna":     { "2024": "Top Safety Pick",  "2025": "Top Safety Pick",  "2026": null },
+    "Venza":      { "2024": "Top Safety Pick+", "2025": "Top Safety Pick+", "2026": null },
+    "4Runner":    { "2024": null,               "2025": null,               "2026": null },
+    "Sequoia":    { "2024": null,               "2025": null,               "2026": null },
+    "Camry":      { "2024": "Top Safety Pick+", "2025": "Top Safety Pick+", "2026": null }
   },
   "Nissan": {
-    "Pathfinder": { "2024": "Top Safety Pick+", "2023": "Top Safety Pick+", "2022": "Top Safety Pick+", "2021": "Top Safety Pick" },
-    "Murano":     { "2024": null, "2023": null, "2022": null, "2021": null },
-    "Armada":     { "2024": null, "2023": null, "2022": null, "2021": null },
-    "Rogue":      { "2024": "Top Safety Pick+", "2023": "Top Safety Pick+", "2022": "Top Safety Pick+", "2021": "Top Safety Pick+" },
-    "Altima":     { "2024": "Top Safety Pick+", "2023": "Top Safety Pick+", "2022": "Top Safety Pick", "2021": "Top Safety Pick" }
+    "Pathfinder": { "2024": "Top Safety Pick+", "2025": "Top Safety Pick+", "2026": null },
+    "Murano":     { "2024": null,               "2025": null,               "2026": null },
+    "Armada":     { "2024": null,               "2025": null,               "2026": null },
+    "Rogue":      { "2024": "Top Safety Pick+", "2025": "Top Safety Pick+", "2026": null },
+    "Altima":     { "2024": "Top Safety Pick+", "2025": "Top Safety Pick+", "2026": null }
   },
   "Mercedes-Benz": {
-    "GLC":     { "2024": "Top Safety Pick+", "2023": "Top Safety Pick+", "2022": "Top Safety Pick", "2021": "Top Safety Pick" },
-    "GLE":     { "2024": "Top Safety Pick", "2023": "Top Safety Pick", "2022": null, "2021": null },
-    "GLS":     { "2024": null, "2023": null, "2022": null, "2021": null },
-    "C-Class": { "2024": "Top Safety Pick+", "2023": "Top Safety Pick+", "2022": "Top Safety Pick+", "2021": "Top Safety Pick" }
+    "GLC":     { "2024": "Top Safety Pick+", "2025": "Top Safety Pick+", "2026": null },
+    "GLE":     { "2024": "Top Safety Pick",  "2025": "Top Safety Pick",  "2026": null },
+    "GLS":     { "2024": null,               "2025": null,               "2026": null },
+    "C-Class": { "2024": "Top Safety Pick+", "2025": "Top Safety Pick+", "2026": null }
   },
   "Lincoln": {
-    "Corsair":   { "2024": "Top Safety Pick+", "2023": "Top Safety Pick+", "2022": "Top Safety Pick", "2021": "Top Safety Pick" },
-    "Nautilus":  { "2024": "Top Safety Pick", "2023": "Top Safety Pick", "2022": null, "2021": null },
-    "Aviator":   { "2024": null, "2023": null, "2022": null, "2021": null },
-    "Navigator": { "2024": null, "2023": null, "2022": null, "2021": null }
+    "Corsair":   { "2024": "Top Safety Pick+", "2025": "Top Safety Pick+", "2026": null },
+    "Nautilus":  { "2024": "Top Safety Pick",  "2025": "Top Safety Pick",  "2026": null },
+    "Aviator":   { "2024": null,               "2025": null,               "2026": null },
+    "Navigator": { "2024": null,               "2025": null,               "2026": null }
   }
 }

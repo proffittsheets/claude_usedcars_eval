@@ -111,10 +111,10 @@ def is_suitable_image(info: dict) -> bool:
     return True
 
 
-def download_image(url: str, dest_path: Path) -> bool:
+def download_image(url: str, dest_path: Path, max_retries: int = 3) -> bool:
     """Download image to dest_path. Returns True on success."""
     try:
-        response = get_with_retry(url, headers=WIKIMEDIA_HEADERS, timeout=30)
+        response = get_with_retry(url, headers=WIKIMEDIA_HEADERS, timeout=30, max_retries=max_retries)
         dest_path.parent.mkdir(parents=True, exist_ok=True)
         with open(dest_path, "wb") as f:
             f.write(response.content)
@@ -164,19 +164,23 @@ def fetch_for_model(make: str, model: str, year: int) -> List[dict]:
     manifest_entries = []
 
     for idx, info in enumerate(suitable):
-        url = info.get("url")
-        if not url:
+        # Use thumb_url (1200px) — Wikimedia rate-limits full-resolution downloads
+        download_url = info.get("thumb_url") or info.get("url")
+        if not download_url:
             continue
-        ext = Path(url).suffix.lower() or ".jpg"
+        full_url = info.get("url") or download_url
+        ext = Path(full_url).suffix.lower() or ".jpg"
+        if ext not in {".jpg", ".jpeg", ".png", ".webp"}:
+            ext = ".jpg"
         filename = f"{idx + 1:02d}{ext}"
         dest = out_dir / filename
 
-        if download_image(url, dest):
+        if download_image(download_url, dest, max_retries=5):
             entry = {
                 "local_path": str(dest.relative_to(IMAGES_DIR)),
                 "source": "wikimedia",
-                "source_url": info.get("description_url") or url,
-                "original_url": url,
+                "source_url": info.get("description_url") or full_url,
+                "original_url": full_url,
                 "license": info.get("license"),
                 "attribution": info.get("attribution"),
                 "make": make,

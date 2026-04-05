@@ -152,10 +152,10 @@ def test_fetch_for_model_downloads_images(tmp_path, monkeypatch):
     responses_lib.add(responses_lib.GET, WIKIMEDIA_API, json=SAMPLE_SEARCH_RESPONSE)
     # Imageinfo response
     responses_lib.add(responses_lib.GET, WIKIMEDIA_API, json=SAMPLE_IMAGEINFO_RESPONSE)
-    # Image download
+    # Image download — uses thumb_url, not full url
     responses_lib.add(
         responses_lib.GET,
-        "https://upload.wikimedia.org/wikipedia/commons/sienna.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/sienna.jpg",
         body=b"fake image",
     )
 

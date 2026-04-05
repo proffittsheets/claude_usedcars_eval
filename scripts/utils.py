@@ -16,6 +16,9 @@ def get_logger(name: str) -> logging.Logger:
     return logging.getLogger(name)
 
 
+_retry_logger = logging.getLogger(__name__)
+
+
 def get_with_retry(
     url: str,
     params: dict = None,
@@ -24,11 +27,27 @@ def get_with_retry(
     backoff: float = 1.5,
     timeout: int = 15,
 ) -> requests.Response:
-    """GET with exponential backoff. Raises on final failure."""
+    """GET with exponential backoff and Retry-After support. Raises on final failure."""
     last_exc = None
     for attempt in range(max_retries):
         try:
             response = requests.get(url, params=params, headers=headers, timeout=timeout)
+            if response.status_code == 429:
+                retry_after = response.headers.get("Retry-After")
+                x_ratelimit = {
+                    k: v for k, v in response.headers.items()
+                    if k.lower().startswith(("x-ratelimit", "ratelimit", "retry"))
+                }
+                _retry_logger.warning(
+                    "429 rate-limited: %s | Retry-After: %s | headers: %s",
+                    url, retry_after, x_ratelimit,
+                )
+                if attempt < max_retries - 1:
+                    wait = float(retry_after) if retry_after and retry_after.isdigit() else backoff ** (attempt + 2)
+                    _retry_logger.info("Waiting %.1fs before retry %d/%d", wait, attempt + 1, max_retries)
+                    time.sleep(wait)
+                    continue
+                response.raise_for_status()
             response.raise_for_status()
             return response
         except requests.RequestException as exc:

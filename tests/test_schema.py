@@ -13,8 +13,8 @@ CATALOG_PATH = Path(__file__).parent.parent / "data" / "processed" / "catalog.js
 REQUIRED_FIELDS = {"id", "make", "model", "year", "has_awd", "price_tier", "msrp_usd", "body_type"}
 VALID_PRICE_TIERS = {"low", "medium", "high"}
 VALID_MAKES = {"Toyota", "Nissan", "Mercedes-Benz", "Lincoln"}
-MIN_YEAR = 2021
-MAX_YEAR = 2025
+MIN_YEAR = 2024
+MAX_YEAR = 2026
 MAX_MSRP = 80_000
 
 

@@ -9,7 +9,7 @@ MANUAL_DIR = DATA_DIR / "manual"
 IMAGES_DIR = RAW_DIR / "images"
 
 # --- Vehicle scope ---
-MODEL_YEARS = [2021, 2022, 2023, 2024, 2025]
+MODEL_YEARS = [2024, 2025, 2026]
 
 TARGET_MODELS = {
     "Toyota": ["RAV4", "Highlander", "Sienna", "Venza", "4Runner", "Sequoia", "Camry"],
@@ -44,7 +44,7 @@ WIKIMEDIA_API = "https://commons.wikimedia.org/w/api.php"
 FUEL_ECONOMY_DELAY = 0.5
 NHTSA_DELAY = 0.5
 CARQUERY_DELAY = 1.0
-WIKIMEDIA_DELAY = 0.5
+WIKIMEDIA_DELAY = 2.0
 MANUFACTURER_DELAY = 2.0
 
 

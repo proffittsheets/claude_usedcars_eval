@@ -119,6 +119,16 @@ a:hover { text-decoration: underline; }
 .badge-tier-low    { background: #dbeafe; color: var(--color-tier-low); }
 .badge-tier-medium { background: #ede9fe; color: var(--color-tier-med); }
 .badge-tier-high   { background: #fef3c7; color: var(--color-tier-high); }
+.msrp-est {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #92400e;
+  background: #fef3c7;
+  padding: 1px 5px;
+  border-radius: 4px;
+  vertical-align: middle;
+  cursor: help;
+}
 
 /* ===========================
    Filter bar
