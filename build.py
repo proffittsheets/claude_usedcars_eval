@@ -104,6 +104,9 @@ def run():
             "root": "../",
         })
 
+    # Sources & Attributions page
+    render(env, "sources.html", SITE_DIR / "sources.html", {"root": ""})
+
     logger.info(
         "Build complete: %d cars, %d brands → %s",
         len(catalog), len(brands), SITE_DIR,

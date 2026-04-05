@@ -1,0 +1,156 @@
+{% extends "base.html" %}
+
+{% block title %}Sources &amp; Attributions{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <h1>Sources &amp; Attributions</h1>
+  <p class="page-subtitle">Data provenance, image credits, and terms of use for all third-party content</p>
+</div>
+
+<section class="sources-editorial">
+  <div class="sources-notice">
+    <h2>About This Site</h2>
+    <p>
+      This is a <strong>personal research project</strong> created by Molly &amp; Justin Sheets to help
+      evaluate new and recent vehicle models before purchasing a used car. It is not affiliated with,
+      endorsed by, or sponsored by any automaker, dealership, rating agency, or media outlet referenced
+      on this site.
+    </p>
+    <p>
+      All content is for <strong>personal, non-commercial research purposes only</strong>. Pricing shown
+      as "est." reflects estimates based on prior-year figures and should not be relied on for purchase
+      decisions. Safety ratings and fuel economy data are reproduced from public government sources and
+      may not reflect the most current model year.
+    </p>
+  </div>
+</section>
+
+<section class="sources-section">
+  <h2>Safety Ratings</h2>
+
+  <div class="source-entry">
+    <h3>NHTSA 5-Star Safety Ratings</h3>
+    <p>Overall crash safety ratings (1–5 stars) for front crash, side crash, and rollover resistance.</p>
+    <ul class="source-meta">
+      <li><strong>Provider:</strong> National Highway Traffic Safety Administration (U.S. Department of Transportation)</li>
+      <li><strong>API:</strong> <a href="https://api.nhtsa.gov/SafetyRatings/" target="_blank" rel="noopener">api.nhtsa.gov/SafetyRatings/</a></li>
+      <li><strong>License:</strong> U.S. Government data, public domain — no restrictions on use</li>
+      <li><strong>Terms:</strong> <a href="https://www.nhtsa.gov/about-nhtsa/web-policies" target="_blank" rel="noopener">NHTSA Web Policies</a></li>
+    </ul>
+  </div>
+
+  <div class="source-entry">
+    <h3>IIHS Top Safety Pick &amp; Top Safety Pick+</h3>
+    <p>
+      TSP and TSP+ award status is manually curated from the IIHS website and stored in
+      <code>data/manual/iihs_overrides.json</code>. IIHS does not offer a public API.
+      2026 awards have not yet been announced; those entries are shown as "Not awarded."
+    </p>
+    <ul class="source-meta">
+      <li><strong>Provider:</strong> Insurance Institute for Highway Safety (IIHS)</li>
+      <li><strong>Source page:</strong> <a href="https://www.iihs.org/ratings/top-safety-picks" target="_blank" rel="noopener">iihs.org/ratings/top-safety-picks</a></li>
+      <li><strong>License:</strong> Reproduced for personal research; IIHS retains all rights</li>
+      <li><strong>Terms:</strong> <a href="https://www.iihs.org/about/terms-of-use" target="_blank" rel="noopener">iihs.org/about/terms-of-use</a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="sources-section">
+  <h2>Fuel Economy</h2>
+
+  <div class="source-entry">
+    <h3>FuelEconomy.gov Web Services</h3>
+    <p>City, highway, and combined MPG figures; fuel type; hybrid/PHEV classification.</p>
+    <ul class="source-meta">
+      <li><strong>Provider:</strong> U.S. Department of Energy / U.S. EPA</li>
+      <li><strong>API:</strong> <a href="https://www.fueleconomy.gov/feg/ws/index.shtml" target="_blank" rel="noopener">fueleconomy.gov/feg/ws/index.shtml</a></li>
+      <li><strong>License:</strong> U.S. Government data, public domain — no restrictions on use</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sources-section">
+  <h2>Vehicle Images</h2>
+
+  <div class="source-entry">
+    <h3>Toyota Motor North America Pressroom</h3>
+    <p>Official press photography for Toyota vehicles. Images are year-specific and hosted on Toyota's Amazon S3 media infrastructure.</p>
+    <ul class="source-meta">
+      <li><strong>Provider:</strong> Toyota Motor North America</li>
+      <li><strong>Source:</strong> <a href="https://pressroom.toyota.com" target="_blank" rel="noopener">pressroom.toyota.com</a></li>
+      <li><strong>License:</strong> Toyota press images — reproduced for personal research only. All rights reserved by Toyota Motor North America.</li>
+      <li><strong>Terms:</strong> <a href="https://pressroom.toyota.com/terms-of-use/" target="_blank" rel="noopener">pressroom.toyota.com/terms-of-use/</a></li>
+    </ul>
+  </div>
+
+  <div class="source-entry">
+    <h3>Motor Trend — Nissan, Mercedes-Benz, Lincoln</h3>
+    <p>
+      Year-specific vehicle photography for Nissan, Mercedes-Benz, and Lincoln models sourced from
+      Motor Trend editorial pages. Images are served from the Hearst CDN
+      (<code>hips.hearstapps.com/mtg-prod/</code>) and include the model year in the filename.
+    </p>
+    <ul class="source-meta">
+      <li><strong>Provider:</strong> Motor Trend Group / Hearst Autos</li>
+      <li><strong>Source:</strong> <a href="https://www.motortrend.com" target="_blank" rel="noopener">motortrend.com</a></li>
+      <li><strong>License:</strong> Hearst editorial photography — reproduced for personal research only. All rights reserved by Hearst Autos.</li>
+      <li><strong>Terms:</strong> <a href="https://www.motortrend.com/terms/" target="_blank" rel="noopener">motortrend.com/terms/</a></li>
+    </ul>
+  </div>
+
+  <div class="source-entry">
+    <h3>Wikimedia Commons</h3>
+    <p>
+      Community-contributed vehicle photos used as a fallback where manufacturer press sources
+      do not provide coverage for a given model year. Each image is attributed individually in
+      <code>data/raw/images/manifest.json</code>. Licenses vary by image; CC BY-SA 4.0 is most common.
+    </p>
+    <ul class="source-meta">
+      <li><strong>Provider:</strong> Wikimedia Foundation / individual contributors</li>
+      <li><strong>API:</strong> <a href="https://commons.wikimedia.org/w/api.php" target="_blank" rel="noopener">commons.wikimedia.org/w/api.php</a></li>
+      <li><strong>License:</strong> Creative Commons (varies per image — CC BY-SA 4.0 most common). Attribution stored in manifest.</li>
+      <li><strong>Terms:</strong> <a href="https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use" target="_blank" rel="noopener">Wikimedia Terms of Use</a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="sources-section">
+  <h2>Vehicle Specifications</h2>
+
+  <div class="source-entry">
+    <h3>CarQuery API</h3>
+    <p>
+      Body type, drivetrain, and seat count data. The CarQuery API has been intermittently
+      unavailable since early April 2026; affected fields may show as blank.
+    </p>
+    <ul class="source-meta">
+      <li><strong>Provider:</strong> CarQuery (carqueryapi.com)</li>
+      <li><strong>API:</strong> <a href="https://www.carqueryapi.com/api/0.3/" target="_blank" rel="noopener">carqueryapi.com/api/0.3/</a></li>
+      <li><strong>License:</strong> Free for personal and commercial use per CarQuery terms</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sources-section">
+  <h2>Pricing (MSRP)</h2>
+
+  <div class="source-entry">
+    <h3>Manufacturer Configurator Pages</h3>
+    <p>
+      Base MSRP figures are manually entered from each brand's official vehicle configurator.
+      Prices marked "est." are estimates only (~2–3% increase from the prior model year) and
+      have not been confirmed by the manufacturer for the 2026 model year.
+    </p>
+    <ul class="source-meta">
+      <li><strong>Sources:</strong>
+        <a href="https://www.toyota.com" target="_blank" rel="noopener">toyota.com</a>,
+        <a href="https://www.nissanusa.com" target="_blank" rel="noopener">nissanusa.com</a>,
+        <a href="https://www.mbusa.com" target="_blank" rel="noopener">mbusa.com</a>,
+        <a href="https://www.lincoln.com" target="_blank" rel="noopener">lincoln.com</a>
+      </li>
+      <li><strong>License:</strong> Reproduced for personal reference only</li>
+    </ul>
+  </div>
+</section>
+{% endblock %}
