@@ -1,0 +1,20 @@
+# Build output
+site/
+
+# Raw downloaded data (large, regenerable)
+data/raw/images/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Secrets
+.env.local
+secrets.json
+
+# OS
+.DS_Store

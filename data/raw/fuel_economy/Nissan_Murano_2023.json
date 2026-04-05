@@ -1,0 +1,40 @@
+[
+  {
+    "vehicle_id": "45769",
+    "year": 2023,
+    "make": "Nissan",
+    "model": "Murano AWD",
+    "trany": "Automatic (AV-S7)",
+    "drive": "All-Wheel Drive",
+    "fuel_type": "Regular Gasoline",
+    "atv_type": null,
+    "is_hybrid": false,
+    "mpg_city": 19,
+    "mpg_highway": 27,
+    "mpg_combined": 22,
+    "mpg_city_alt": 0,
+    "mpg_highway_alt": 0,
+    "mpg_combined_alt": 0,
+    "annual_fuel_cost": 2700,
+    "source_url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=45769"
+  },
+  {
+    "vehicle_id": "45768",
+    "year": 2023,
+    "make": "Nissan",
+    "model": "Murano FWD",
+    "trany": "Automatic (AV-S7)",
+    "drive": "Front-Wheel Drive",
+    "fuel_type": "Regular Gasoline",
+    "atv_type": null,
+    "is_hybrid": false,
+    "mpg_city": 20,
+    "mpg_highway": 28,
+    "mpg_combined": 23,
+    "mpg_city_alt": 0,
+    "mpg_highway_alt": 0,
+    "mpg_combined_alt": 0,
+    "annual_fuel_cost": 2600,
+    "source_url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=45768"
+  }
+]

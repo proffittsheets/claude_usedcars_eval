@@ -1,0 +1,113 @@
+/* ===========================
+   Gallery Section
+   =========================== */
+.gallery-section { margin-bottom: 36px; }
+.gallery-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-muted);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.8rem;
+}
+
+/* Horizontal scroll strip */
+.gallery-scroll {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-border) transparent;
+}
+.gallery-scroll::-webkit-scrollbar { height: 4px; }
+.gallery-scroll::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 2px; }
+
+.gallery-thumb {
+  flex-shrink: 0;
+  width: 220px;
+  height: 148px;
+  object-fit: cover;
+  border-radius: var(--radius);
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: border-color 0.15s, transform 0.15s;
+}
+.gallery-thumb:hover {
+  border-color: var(--color-accent);
+  transform: scale(1.02);
+}
+
+/* ===========================
+   Lightbox
+   =========================== */
+#lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.88);
+  z-index: 500;
+  align-items: center;
+  justify-content: center;
+}
+#lightbox.open { display: flex; }
+
+#lightbox img {
+  max-width: 90vw;
+  max-height: 88vh;
+  object-fit: contain;
+  border-radius: var(--radius);
+  box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+}
+
+#lightbox-close {
+  position: fixed;
+  top: 16px;
+  right: 20px;
+  background: rgba(255,255,255,0.15);
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
+  z-index: 501;
+}
+#lightbox-close:hover { background: rgba(255,255,255,0.3); }
+
+#lightbox-prev,
+#lightbox-next {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255,255,255,0.15);
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  width: 48px;
+  height: 64px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
+  z-index: 501;
+}
+#lightbox-prev { left: 12px; }
+#lightbox-next { right: 12px; }
+#lightbox-prev:hover,
+#lightbox-next:hover { background: rgba(255,255,255,0.3); }
+
+@media (max-width: 640px) {
+  .gallery-thumb { width: 160px; height: 110px; }
+  #lightbox-prev { left: 4px; }
+  #lightbox-next { right: 4px; }
+}

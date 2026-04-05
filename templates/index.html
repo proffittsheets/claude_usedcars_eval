@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% from "car_card.html" import car_card %}
+
+{% block title %}All Cars{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <h1>Car Vision Board</h1>
+  <p class="page-subtitle">Exploring {{ cars | length }} vehicles across Toyota, Nissan, Mercedes, and Lincoln</p>
+</div>
+
+<div class="filter-bar" id="filter-bar">
+  <div class="filter-group">
+    <label>Brand</label>
+    <div class="filter-pills" data-filter="make">
+      <button class="pill pill-active" data-value="">All</button>
+      {% for brand in brands %}
+        <button class="pill" data-value="{{ brand }}">{{ brand }}</button>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="filter-group">
+    <label>Price Tier</label>
+    <div class="filter-pills" data-filter="tier">
+      <button class="pill pill-active" data-value="">All</button>
+      <button class="pill" data-value="low">Low (&lt;$40k)</button>
+      <button class="pill" data-value="medium">Mid ($40–60k)</button>
+      <button class="pill" data-value="high">High ($60–80k)</button>
+    </div>
+  </div>
+
+  <div class="filter-group">
+    <label>Body Type</label>
+    <div class="filter-pills" data-filter="body">
+      <button class="pill pill-active" data-value="">All</button>
+      <button class="pill" data-value="SUV">SUV</button>
+      <button class="pill" data-value="Sedan">Sedan</button>
+      <button class="pill" data-value="Minivan">Minivan</button>
+    </div>
+  </div>
+
+  <div class="filter-group filter-toggle">
+    <label class="toggle-label">
+      <input type="checkbox" id="hybrid-only" data-filter="hybrid">
+      Hybrid / EV only
+    </label>
+  </div>
+
+  <div class="filter-summary" id="filter-summary"></div>
+</div>
+
+<div class="card-grid" id="car-grid">
+  {% for car in cars %}
+    {{ car_card(car, root="") }}
+  {% endfor %}
+</div>
+
+<p class="no-results" id="no-results" style="display:none">
+  No cars match the current filters. <button class="link-btn" id="clear-filters">Clear filters</button>
+</p>
+{% endblock %}

@@ -1,0 +1,61 @@
+name: Build & Deploy to S3
+
+# Currently manual-trigger only.
+# Phase 2: add schedule or push trigger once S3 bucket is configured.
+on:
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch fuel economy data
+        run: python scripts/fetch_fuel_economy.py
+
+      - name: Fetch NHTSA safety data
+        run: python scripts/fetch_nhtsa_safety.py
+
+      - name: Fetch CarQuery specs
+        run: python scripts/fetch_carquery_specs.py
+
+      - name: Fetch Wikimedia images
+        run: python scripts/fetch_images_wikimedia.py
+
+      # Uncomment if manufacturer scraping is enabled:
+      # - name: Fetch manufacturer images
+      #   run: python scripts/fetch_images_manufacturer.py
+
+      - name: Generate image comparison page
+        run: python scripts/generate_compare_images.py
+
+      - name: Build catalog
+        run: python scripts/build_catalog.py
+
+      - name: Build site
+        run: python build.py
+
+      - name: Run tests
+        run: python -m pytest tests/ -v
+
+      - name: Sync to S3
+        env:
+          AWS_ACCESS_KEY_ID:     ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION:    us-east-1
+        run: |
+          # TODO: Set S3_BUCKET_NAME in repository secrets
+          aws s3 sync site/ s3://${{ secrets.S3_BUCKET_NAME }}/ \
+            --delete \
+            --cache-control "max-age=86400"

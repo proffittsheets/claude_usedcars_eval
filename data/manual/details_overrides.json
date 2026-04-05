@@ -1,0 +1,111 @@
+{
+  "_note": "Minor detail specs per make/model. cup_holders is total vehicle count. heated_seats describes which rows. audio_system is the premium system name and speaker count. Sources: manufacturer spec sheets.",
+  "Toyota": {
+    "RAV4": {
+      "cup_holders": 5,
+      "heated_seats": "front only (standard on XLE and above)",
+      "audio_system": "JBL 9-speaker premium audio (Adventure and above)"
+    },
+    "Highlander": {
+      "cup_holders": 8,
+      "heated_seats": "front and second row (Platinum trim)",
+      "audio_system": "JBL 11-speaker premium audio (Platinum)"
+    },
+    "Sienna": {
+      "cup_holders": 12,
+      "heated_seats": "front only standard; front and second row on Platinum",
+      "audio_system": "JBL 12-speaker premium audio (Platinum)"
+    },
+    "Venza": {
+      "cup_holders": 4,
+      "heated_seats": "front only",
+      "audio_system": "JBL 8-speaker premium audio (Limited)"
+    },
+    "4Runner": {
+      "cup_holders": 6,
+      "heated_seats": "front only (SR5 Premium and above)",
+      "audio_system": "JBL 15-speaker premium audio (TRD Pro)"
+    },
+    "Sequoia": {
+      "cup_holders": 10,
+      "heated_seats": "front and second row standard; third row on Capstone",
+      "audio_system": "JBL 14-speaker premium audio (Platinum and Capstone)"
+    },
+    "Camry": {
+      "cup_holders": 4,
+      "heated_seats": "front only (SE and above)",
+      "audio_system": "JBL 9-speaker premium audio (XSE V6 and XLE)"
+    }
+  },
+  "Nissan": {
+    "Pathfinder": {
+      "cup_holders": 9,
+      "heated_seats": "front only standard; front and second row on Platinum",
+      "audio_system": "Bose 13-speaker premium audio (Platinum)"
+    },
+    "Murano": {
+      "cup_holders": 5,
+      "heated_seats": "front only",
+      "audio_system": "Bose 11-speaker premium audio (Platinum)"
+    },
+    "Armada": {
+      "cup_holders": 10,
+      "heated_seats": "front and second row",
+      "audio_system": "Bose 13-speaker premium audio (Platinum)"
+    },
+    "Rogue": {
+      "cup_holders": 5,
+      "heated_seats": "front only (SV and above)",
+      "audio_system": "Bose 10-speaker premium audio (SL and Platinum)"
+    },
+    "Altima": {
+      "cup_holders": 4,
+      "heated_seats": "front only (SV and above)",
+      "audio_system": "Bose 9-speaker premium audio (SL and Platinum)"
+    }
+  },
+  "Mercedes-Benz": {
+    "GLC": {
+      "cup_holders": 4,
+      "heated_seats": "front standard; rear optional on AMG Line",
+      "audio_system": "Burmester 3D surround sound 15-speaker (optional)"
+    },
+    "GLE": {
+      "cup_holders": 6,
+      "heated_seats": "front standard; second row on Premium package",
+      "audio_system": "Burmester 3D surround sound 13-speaker (optional)"
+    },
+    "GLS": {
+      "cup_holders": 8,
+      "heated_seats": "front and second row standard; third row on Executive package",
+      "audio_system": "Burmester 4D surround sound 27-speaker (optional)"
+    },
+    "C-Class": {
+      "cup_holders": 3,
+      "heated_seats": "front standard",
+      "audio_system": "Burmester surround sound 15-speaker (optional)"
+    }
+  },
+  "Lincoln": {
+    "Corsair": {
+      "cup_holders": 4,
+      "heated_seats": "front standard; rear not available",
+      "audio_system": "Revel Ultima 14-speaker premium audio (Reserve)"
+    },
+    "Nautilus": {
+      "cup_holders": 6,
+      "heated_seats": "front standard; rear on Reserve and Black Label",
+      "audio_system": "Revel Ultima Studio 13-speaker (Black Label)"
+    },
+    "Aviator": {
+      "cup_holders": 8,
+      "heated_seats": "front and second row standard; third row on Black Label",
+      "audio_system": "Revel Ultima Studio 28-speaker (Black Label)"
+    },
+    "Navigator": {
+      "cup_holders": 10,
+      "heated_seats": "front and second row standard; third row on Black Label",
+      "audio_system": "Revel Ultima Studio 28-speaker (Black Label)"
+    }
+  }
+}

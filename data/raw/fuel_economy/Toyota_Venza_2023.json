@@ -1,0 +1,21 @@
+[
+  {
+    "vehicle_id": "46079",
+    "year": 2023,
+    "make": "Toyota",
+    "model": "Venza AWD",
+    "trany": "Automatic (AV-S6)",
+    "drive": "All-Wheel Drive",
+    "fuel_type": "Regular Gasoline",
+    "atv_type": "Hybrid",
+    "is_hybrid": true,
+    "mpg_city": 40,
+    "mpg_highway": 37,
+    "mpg_combined": 39,
+    "mpg_city_alt": 0,
+    "mpg_highway_alt": 0,
+    "mpg_combined_alt": 0,
+    "annual_fuel_cost": 1550,
+    "source_url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46079"
+  }
+]

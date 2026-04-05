@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% from "car_card.html" import car_card %}
+
+{% block title %}{{ brand }} Vehicles{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <h1>{{ brand }}</h1>
+  <p class="page-subtitle">{{ cars | length }} vehicle{{ 's' if cars | length != 1 else '' }}</p>
+</div>
+
+{% for tier_name, tier_label in [("low", "Low — Under $40,000"), ("medium", "Medium — $40,000–$60,000"), ("high", "High — $60,000–$80,000")] %}
+  {% set tier_cars = cars | selectattr("price_tier", "equalto", tier_name) | list %}
+  {% if tier_cars %}
+    <section class="tier-section">
+      <h2 class="tier-heading">{{ tier_label }}</h2>
+      <div class="card-grid">
+        {% for car in tier_cars %}
+          {{ car_card(car, root="../") }}
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+{% endfor %}
+{% endblock %}

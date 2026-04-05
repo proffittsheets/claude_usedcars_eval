@@ -1,0 +1,40 @@
+[
+  {
+    "vehicle_id": "47992",
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "C300",
+    "trany": "Automatic 9-spd",
+    "drive": "Rear-Wheel Drive",
+    "fuel_type": "Premium Gasoline",
+    "atv_type": "Hybrid",
+    "is_hybrid": true,
+    "mpg_city": 25,
+    "mpg_highway": 35,
+    "mpg_combined": 29,
+    "mpg_city_alt": 0,
+    "mpg_highway_alt": 0,
+    "mpg_combined_alt": 0,
+    "annual_fuel_cost": 2400,
+    "source_url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47992"
+  },
+  {
+    "vehicle_id": "47993",
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "C300 4matic",
+    "trany": "Automatic 9-spd",
+    "drive": "All-Wheel Drive",
+    "fuel_type": "Premium Gasoline",
+    "atv_type": "Hybrid",
+    "is_hybrid": true,
+    "mpg_city": 24,
+    "mpg_highway": 33,
+    "mpg_combined": 27,
+    "mpg_city_alt": 0,
+    "mpg_highway_alt": 0,
+    "mpg_combined_alt": 0,
+    "annual_fuel_cost": 2550,
+    "source_url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47993"
+  }
+]

@@ -1,0 +1,4827 @@
+[
+  {
+    "id": "toyota-rav4-2021",
+    "make": "Toyota",
+    "model": "RAV4",
+    "year": 2021,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 28975,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Blueprint",
+      "Midnight Black Metallic",
+      "Super White",
+      "Silver Sky Metallic",
+      "Magnetic Gray Metallic",
+      "Cavalry Blue",
+      "Lunar Rock",
+      "Ruby Flare Pearl",
+      "Wind Chill Pearl"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 5,
+      "heated_seats": "front only (standard on XLE and above)",
+      "audio_system": "JBL 9-speaker premium audio (Adventure and above)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/rav4/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-rav4-2022",
+    "make": "Toyota",
+    "model": "RAV4",
+    "year": 2022,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 29345,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Blueprint",
+      "Midnight Black Metallic",
+      "Super White",
+      "Silver Sky Metallic",
+      "Magnetic Gray Metallic",
+      "Cavalry Blue",
+      "Lunar Rock",
+      "Ruby Flare Pearl",
+      "Wind Chill Pearl"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 5,
+      "heated_seats": "front only (standard on XLE and above)",
+      "audio_system": "JBL 9-speaker premium audio (Adventure and above)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/rav4/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-rav4-2023",
+    "make": "Toyota",
+    "model": "RAV4",
+    "year": 2023,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 29855,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Blueprint",
+      "Midnight Black Metallic",
+      "Super White",
+      "Silver Sky Metallic",
+      "Magnetic Gray Metallic",
+      "Cavalry Blue",
+      "Lunar Rock",
+      "Ruby Flare Pearl",
+      "Wind Chill Pearl"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick+",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 5,
+      "heated_seats": "front only (standard on XLE and above)",
+      "audio_system": "JBL 9-speaker premium audio (Adventure and above)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/rav4/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-rav4-2024",
+    "make": "Toyota",
+    "model": "RAV4",
+    "year": 2024,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 30875,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Blueprint",
+      "Midnight Black Metallic",
+      "Super White",
+      "Silver Sky Metallic",
+      "Magnetic Gray Metallic",
+      "Cavalry Blue",
+      "Lunar Rock",
+      "Ruby Flare Pearl",
+      "Wind Chill Pearl"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick+",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 5,
+      "heated_seats": "front only (standard on XLE and above)",
+      "audio_system": "JBL 9-speaker premium audio (Adventure and above)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/rav4/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-rav4-2025",
+    "make": "Toyota",
+    "model": "RAV4",
+    "year": 2025,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 31400,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Blueprint",
+      "Midnight Black Metallic",
+      "Super White",
+      "Silver Sky Metallic",
+      "Magnetic Gray Metallic",
+      "Cavalry Blue",
+      "Lunar Rock",
+      "Ruby Flare Pearl",
+      "Wind Chill Pearl"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 5,
+      "heated_seats": "front only (standard on XLE and above)",
+      "audio_system": "JBL 9-speaker premium audio (Adventure and above)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/rav4/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-highlander-2021",
+    "make": "Toyota",
+    "model": "Highlander",
+    "year": 2021,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 36820,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Celestial Silver Metallic",
+      "Magnetic Gray Metallic",
+      "Blueprint",
+      "Ruby Flare Pearl",
+      "Wind Chill Pearl",
+      "Opulent Amber",
+      "Blizzard Pearl"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 8,
+      "heated_seats": "front and second row (Platinum trim)",
+      "audio_system": "JBL 11-speaker premium audio (Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/highlander/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-highlander-2022",
+    "make": "Toyota",
+    "model": "Highlander",
+    "year": 2022,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 37680,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Celestial Silver Metallic",
+      "Magnetic Gray Metallic",
+      "Blueprint",
+      "Ruby Flare Pearl",
+      "Wind Chill Pearl",
+      "Opulent Amber",
+      "Blizzard Pearl"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick+",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 8,
+      "heated_seats": "front and second row (Platinum trim)",
+      "audio_system": "JBL 11-speaker premium audio (Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/highlander/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-highlander-2023",
+    "make": "Toyota",
+    "model": "Highlander",
+    "year": 2023,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 38610,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Celestial Silver Metallic",
+      "Magnetic Gray Metallic",
+      "Blueprint",
+      "Ruby Flare Pearl",
+      "Wind Chill Pearl",
+      "Opulent Amber",
+      "Blizzard Pearl"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick+",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 8,
+      "heated_seats": "front and second row (Platinum trim)",
+      "audio_system": "JBL 11-speaker premium audio (Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/highlander/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-highlander-2024",
+    "make": "Toyota",
+    "model": "Highlander",
+    "year": 2024,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 39020,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Celestial Silver Metallic",
+      "Magnetic Gray Metallic",
+      "Blueprint",
+      "Ruby Flare Pearl",
+      "Wind Chill Pearl",
+      "Opulent Amber",
+      "Blizzard Pearl"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick+",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 8,
+      "heated_seats": "front and second row (Platinum trim)",
+      "audio_system": "JBL 11-speaker premium audio (Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/highlander/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-highlander-2025",
+    "make": "Toyota",
+    "model": "Highlander",
+    "year": 2025,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 40000,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Celestial Silver Metallic",
+      "Magnetic Gray Metallic",
+      "Blueprint",
+      "Ruby Flare Pearl",
+      "Wind Chill Pearl",
+      "Opulent Amber",
+      "Blizzard Pearl"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 8,
+      "heated_seats": "front and second row (Platinum trim)",
+      "audio_system": "JBL 11-speaker premium audio (Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/highlander/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-sienna-2021",
+    "make": "Toyota",
+    "model": "Sienna",
+    "year": 2021,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 34460,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Blueprint",
+      "Predawn Gray Mica",
+      "Blizzard Pearl",
+      "Cavalry Blue",
+      "Supersonic Red",
+      "Cement"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 12,
+      "heated_seats": "front only standard; front and second row on Platinum",
+      "audio_system": "JBL 12-speaker premium audio (Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/sienna/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-sienna-2022",
+    "make": "Toyota",
+    "model": "Sienna",
+    "year": 2022,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 35960,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Blueprint",
+      "Predawn Gray Mica",
+      "Blizzard Pearl",
+      "Cavalry Blue",
+      "Supersonic Red",
+      "Cement"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 12,
+      "heated_seats": "front only standard; front and second row on Platinum",
+      "audio_system": "JBL 12-speaker premium audio (Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/sienna/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-sienna-2023",
+    "make": "Toyota",
+    "model": "Sienna",
+    "year": 2023,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 36585,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Blueprint",
+      "Predawn Gray Mica",
+      "Blizzard Pearl",
+      "Cavalry Blue",
+      "Supersonic Red",
+      "Cement"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 12,
+      "heated_seats": "front only standard; front and second row on Platinum",
+      "audio_system": "JBL 12-speaker premium audio (Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/sienna/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-sienna-2024",
+    "make": "Toyota",
+    "model": "Sienna",
+    "year": 2024,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 37485,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Blueprint",
+      "Predawn Gray Mica",
+      "Blizzard Pearl",
+      "Cavalry Blue",
+      "Supersonic Red",
+      "Cement"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 12,
+      "heated_seats": "front only standard; front and second row on Platinum",
+      "audio_system": "JBL 12-speaker premium audio (Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/sienna/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-sienna-2025",
+    "make": "Toyota",
+    "model": "Sienna",
+    "year": 2025,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 38885,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Blueprint",
+      "Predawn Gray Mica",
+      "Blizzard Pearl",
+      "Cavalry Blue",
+      "Supersonic Red",
+      "Cement"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 12,
+      "heated_seats": "front only standard; front and second row on Platinum",
+      "audio_system": "JBL 12-speaker premium audio (Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/sienna/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-venza-2021",
+    "make": "Toyota",
+    "model": "Venza",
+    "year": 2021,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 32470,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Coastal Gray Metallic",
+      "Ruby Flare Pearl",
+      "Wind Chill Pearl",
+      "Blueprint",
+      "Magnetic Gray Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick+",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 4,
+      "heated_seats": "front only",
+      "audio_system": "JBL 8-speaker premium audio (Limited)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/venza/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-venza-2022",
+    "make": "Toyota",
+    "model": "Venza",
+    "year": 2022,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 33545,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Coastal Gray Metallic",
+      "Ruby Flare Pearl",
+      "Wind Chill Pearl",
+      "Blueprint",
+      "Magnetic Gray Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick+",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 4,
+      "heated_seats": "front only",
+      "audio_system": "JBL 8-speaker premium audio (Limited)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/venza/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-venza-2023",
+    "make": "Toyota",
+    "model": "Venza",
+    "year": 2023,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 33965,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Coastal Gray Metallic",
+      "Ruby Flare Pearl",
+      "Wind Chill Pearl",
+      "Blueprint",
+      "Magnetic Gray Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick+",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 4,
+      "heated_seats": "front only",
+      "audio_system": "JBL 8-speaker premium audio (Limited)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/venza/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-venza-2024",
+    "make": "Toyota",
+    "model": "Venza",
+    "year": 2024,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 34545,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Coastal Gray Metallic",
+      "Ruby Flare Pearl",
+      "Wind Chill Pearl",
+      "Blueprint",
+      "Magnetic Gray Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick+",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 4,
+      "heated_seats": "front only",
+      "audio_system": "JBL 8-speaker premium audio (Limited)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/venza/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-venza-2025",
+    "make": "Toyota",
+    "model": "Venza",
+    "year": 2025,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 35100,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Coastal Gray Metallic",
+      "Ruby Flare Pearl",
+      "Wind Chill Pearl",
+      "Blueprint",
+      "Magnetic Gray Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 4,
+      "heated_seats": "front only",
+      "audio_system": "JBL 8-speaker premium audio (Limited)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/venza/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-4runner-2021",
+    "make": "Toyota",
+    "model": "4Runner",
+    "year": 2021,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 37805,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Super White",
+      "Magnetic Gray Metallic",
+      "Barcelona Red Metallic",
+      "Army Green",
+      "Solar Octane",
+      "Lunar Rock",
+      "Ice Cap",
+      "Midnight Black"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 6,
+      "heated_seats": "front only (SR5 Premium and above)",
+      "audio_system": "JBL 15-speaker premium audio (TRD Pro)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/4runner/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-4runner-2022",
+    "make": "Toyota",
+    "model": "4Runner",
+    "year": 2022,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 38235,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Super White",
+      "Magnetic Gray Metallic",
+      "Barcelona Red Metallic",
+      "Army Green",
+      "Solar Octane",
+      "Lunar Rock",
+      "Ice Cap",
+      "Midnight Black"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 6,
+      "heated_seats": "front only (SR5 Premium and above)",
+      "audio_system": "JBL 15-speaker premium audio (TRD Pro)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/4runner/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-4runner-2023",
+    "make": "Toyota",
+    "model": "4Runner",
+    "year": 2023,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 39070,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Super White",
+      "Magnetic Gray Metallic",
+      "Barcelona Red Metallic",
+      "Army Green",
+      "Solar Octane",
+      "Lunar Rock",
+      "Ice Cap",
+      "Midnight Black"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 6,
+      "heated_seats": "front only (SR5 Premium and above)",
+      "audio_system": "JBL 15-speaker premium audio (TRD Pro)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/4runner/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-4runner-2024",
+    "make": "Toyota",
+    "model": "4Runner",
+    "year": 2024,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 40280,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Super White",
+      "Magnetic Gray Metallic",
+      "Barcelona Red Metallic",
+      "Army Green",
+      "Solar Octane",
+      "Lunar Rock",
+      "Ice Cap",
+      "Midnight Black"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 6,
+      "heated_seats": "front only (SR5 Premium and above)",
+      "audio_system": "JBL 15-speaker premium audio (TRD Pro)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/4runner/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-4runner-2025",
+    "make": "Toyota",
+    "model": "4Runner",
+    "year": 2025,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 42500,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Super White",
+      "Magnetic Gray Metallic",
+      "Barcelona Red Metallic",
+      "Army Green",
+      "Solar Octane",
+      "Lunar Rock",
+      "Ice Cap",
+      "Midnight Black"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 6,
+      "heated_seats": "front only (SR5 Premium and above)",
+      "audio_system": "JBL 15-speaker premium audio (TRD Pro)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/4runner/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-sequoia-2021",
+    "make": "Toyota",
+    "model": "Sequoia",
+    "year": 2021,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 51510,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Smoked Mesquite",
+      "Blizzard Pearl",
+      "Wind Chill Pearl",
+      "Cavalry Blue",
+      "Solar Octane",
+      "Infrared"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 10,
+      "heated_seats": "front and second row standard; third row on Capstone",
+      "audio_system": "JBL 14-speaker premium audio (Platinum and Capstone)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/sequoia/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-sequoia-2022",
+    "make": "Toyota",
+    "model": "Sequoia",
+    "year": 2022,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 58300,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Smoked Mesquite",
+      "Blizzard Pearl",
+      "Wind Chill Pearl",
+      "Cavalry Blue",
+      "Solar Octane",
+      "Infrared"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 10,
+      "heated_seats": "front and second row standard; third row on Capstone",
+      "audio_system": "JBL 14-speaker premium audio (Platinum and Capstone)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/sequoia/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-sequoia-2023",
+    "make": "Toyota",
+    "model": "Sequoia",
+    "year": 2023,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "high",
+    "msrp_usd": 60295,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Smoked Mesquite",
+      "Blizzard Pearl",
+      "Wind Chill Pearl",
+      "Cavalry Blue",
+      "Solar Octane",
+      "Infrared"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 10,
+      "heated_seats": "front and second row standard; third row on Capstone",
+      "audio_system": "JBL 14-speaker premium audio (Platinum and Capstone)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/sequoia/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-sequoia-2024",
+    "make": "Toyota",
+    "model": "Sequoia",
+    "year": 2024,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "high",
+    "msrp_usd": 62045,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Smoked Mesquite",
+      "Blizzard Pearl",
+      "Wind Chill Pearl",
+      "Cavalry Blue",
+      "Solar Octane",
+      "Infrared"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 10,
+      "heated_seats": "front and second row standard; third row on Capstone",
+      "audio_system": "JBL 14-speaker premium audio (Platinum and Capstone)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/sequoia/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-sequoia-2025",
+    "make": "Toyota",
+    "model": "Sequoia",
+    "year": 2025,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "high",
+    "msrp_usd": 63400,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Smoked Mesquite",
+      "Blizzard Pearl",
+      "Wind Chill Pearl",
+      "Cavalry Blue",
+      "Solar Octane",
+      "Infrared"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 10,
+      "heated_seats": "front and second row standard; third row on Capstone",
+      "audio_system": "JBL 14-speaker premium audio (Platinum and Capstone)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/sequoia/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-camry-2021",
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2021,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 28090,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Predawn Gray Mica",
+      "Supersonic Red",
+      "Wind Chill Pearl",
+      "Reservoir Blue Metallic",
+      "Cavalry Blue",
+      "Celestial Silver Metallic",
+      "Ruby Flare Pearl",
+      "Blueprint"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 4,
+      "heated_seats": "front only (SE and above)",
+      "audio_system": "JBL 9-speaker premium audio (XSE V6 and XLE)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/camry/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-camry-2022",
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2022,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 28855,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Predawn Gray Mica",
+      "Supersonic Red",
+      "Wind Chill Pearl",
+      "Reservoir Blue Metallic",
+      "Cavalry Blue",
+      "Celestial Silver Metallic",
+      "Ruby Flare Pearl",
+      "Blueprint"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick+",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 4,
+      "heated_seats": "front only (SE and above)",
+      "audio_system": "JBL 9-speaker premium audio (XSE V6 and XLE)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/camry/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-camry-2023",
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2023,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 29945,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Predawn Gray Mica",
+      "Supersonic Red",
+      "Wind Chill Pearl",
+      "Reservoir Blue Metallic",
+      "Cavalry Blue",
+      "Celestial Silver Metallic",
+      "Ruby Flare Pearl",
+      "Blueprint"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick+",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 4,
+      "heated_seats": "front only (SE and above)",
+      "audio_system": "JBL 9-speaker premium audio (XSE V6 and XLE)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/camry/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-camry-2024",
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2024,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 30740,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Predawn Gray Mica",
+      "Supersonic Red",
+      "Wind Chill Pearl",
+      "Reservoir Blue Metallic",
+      "Cavalry Blue",
+      "Celestial Silver Metallic",
+      "Ruby Flare Pearl",
+      "Blueprint"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick+",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 4,
+      "heated_seats": "front only (SE and above)",
+      "audio_system": "JBL 9-speaker premium audio (XSE V6 and XLE)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/camry/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "toyota-camry-2025",
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2025,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 31300,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Midnight Black Metallic",
+      "Predawn Gray Mica",
+      "Supersonic Red",
+      "Wind Chill Pearl",
+      "Reservoir Blue Metallic",
+      "Cavalry Blue",
+      "Celestial Silver Metallic",
+      "Ruby Flare Pearl",
+      "Blueprint"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 4,
+      "heated_seats": "front only (SE and above)",
+      "audio_system": "JBL 9-speaker premium audio (XSE V6 and XLE)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.toyota.com/camry/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "nissan-pathfinder-2021",
+    "make": "Nissan",
+    "model": "Pathfinder",
+    "year": 2021,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 33410,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Gun Metallic",
+      "Brilliant Silver",
+      "Super Black",
+      "Pearl White TriCoat",
+      "Scarlet Ember Tintcoat",
+      "Baja Storm",
+      "Deep Blue Pearl"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 9,
+      "heated_seats": "front only standard; front and second row on Platinum",
+      "audio_system": "Bose 13-speaker premium audio (Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.nissanusa.com/vehicles/pathfinder/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "nissan-pathfinder-2022",
+    "make": "Nissan",
+    "model": "Pathfinder",
+    "year": 2022,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 34035,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Gun Metallic",
+      "Brilliant Silver",
+      "Super Black",
+      "Pearl White TriCoat",
+      "Scarlet Ember Tintcoat",
+      "Baja Storm",
+      "Deep Blue Pearl"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick+",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 9,
+      "heated_seats": "front only standard; front and second row on Platinum",
+      "audio_system": "Bose 13-speaker premium audio (Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.nissanusa.com/vehicles/pathfinder/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "nissan-pathfinder-2023",
+    "make": "Nissan",
+    "model": "Pathfinder",
+    "year": 2023,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 35035,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Gun Metallic",
+      "Brilliant Silver",
+      "Super Black",
+      "Pearl White TriCoat",
+      "Scarlet Ember Tintcoat",
+      "Baja Storm",
+      "Deep Blue Pearl"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick+",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 9,
+      "heated_seats": "front only standard; front and second row on Platinum",
+      "audio_system": "Bose 13-speaker premium audio (Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.nissanusa.com/vehicles/pathfinder/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "nissan-pathfinder-2024",
+    "make": "Nissan",
+    "model": "Pathfinder",
+    "year": 2024,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 36035,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Gun Metallic",
+      "Brilliant Silver",
+      "Super Black",
+      "Pearl White TriCoat",
+      "Scarlet Ember Tintcoat",
+      "Baja Storm",
+      "Deep Blue Pearl"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick+",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 9,
+      "heated_seats": "front only standard; front and second row on Platinum",
+      "audio_system": "Bose 13-speaker premium audio (Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.nissanusa.com/vehicles/pathfinder/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "nissan-pathfinder-2025",
+    "make": "Nissan",
+    "model": "Pathfinder",
+    "year": 2025,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 37000,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Gun Metallic",
+      "Brilliant Silver",
+      "Super Black",
+      "Pearl White TriCoat",
+      "Scarlet Ember Tintcoat",
+      "Baja Storm",
+      "Deep Blue Pearl"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 9,
+      "heated_seats": "front only standard; front and second row on Platinum",
+      "audio_system": "Bose 13-speaker premium audio (Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.nissanusa.com/vehicles/pathfinder/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "nissan-murano-2021",
+    "make": "Nissan",
+    "model": "Murano",
+    "year": 2021,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 33430,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Gun Metallic",
+      "Brilliant Silver",
+      "Super Black",
+      "Pearl White TriCoat",
+      "Scarlet Ember Tintcoat",
+      "Pacific Sunset"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 5,
+      "heated_seats": "front only",
+      "audio_system": "Bose 11-speaker premium audio (Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.nissanusa.com/vehicles/murano/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "nissan-murano-2022",
+    "make": "Nissan",
+    "model": "Murano",
+    "year": 2022,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 34000,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Gun Metallic",
+      "Brilliant Silver",
+      "Super Black",
+      "Pearl White TriCoat",
+      "Scarlet Ember Tintcoat",
+      "Pacific Sunset"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 5,
+      "heated_seats": "front only",
+      "audio_system": "Bose 11-speaker premium audio (Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.nissanusa.com/vehicles/murano/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "nissan-murano-2023",
+    "make": "Nissan",
+    "model": "Murano",
+    "year": 2023,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 35100,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Gun Metallic",
+      "Brilliant Silver",
+      "Super Black",
+      "Pearl White TriCoat",
+      "Scarlet Ember Tintcoat",
+      "Pacific Sunset"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 5,
+      "heated_seats": "front only",
+      "audio_system": "Bose 11-speaker premium audio (Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.nissanusa.com/vehicles/murano/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "nissan-murano-2024",
+    "make": "Nissan",
+    "model": "Murano",
+    "year": 2024,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 37055,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Gun Metallic",
+      "Brilliant Silver",
+      "Super Black",
+      "Pearl White TriCoat",
+      "Scarlet Ember Tintcoat",
+      "Pacific Sunset"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 5,
+      "heated_seats": "front only",
+      "audio_system": "Bose 11-speaker premium audio (Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.nissanusa.com/vehicles/murano/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "nissan-murano-2025",
+    "make": "Nissan",
+    "model": "Murano",
+    "year": 2025,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 38000,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Gun Metallic",
+      "Brilliant Silver",
+      "Super Black",
+      "Pearl White TriCoat",
+      "Scarlet Ember Tintcoat",
+      "Pacific Sunset"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 5,
+      "heated_seats": "front only",
+      "audio_system": "Bose 11-speaker premium audio (Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.nissanusa.com/vehicles/murano/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "nissan-armada-2021",
+    "make": "Nissan",
+    "model": "Armada",
+    "year": 2021,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 49950,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Gun Metallic",
+      "Brilliant Silver",
+      "Super Black",
+      "Pearl White TriCoat",
+      "Scarlet Ember Tintcoat",
+      "Midnight Armor"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 10,
+      "heated_seats": "front and second row",
+      "audio_system": "Bose 13-speaker premium audio (Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.nissanusa.com/vehicles/armada/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "nissan-armada-2022",
+    "make": "Nissan",
+    "model": "Armada",
+    "year": 2022,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 51695,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Gun Metallic",
+      "Brilliant Silver",
+      "Super Black",
+      "Pearl White TriCoat",
+      "Scarlet Ember Tintcoat",
+      "Midnight Armor"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 10,
+      "heated_seats": "front and second row",
+      "audio_system": "Bose 13-speaker premium audio (Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.nissanusa.com/vehicles/armada/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "nissan-armada-2023",
+    "make": "Nissan",
+    "model": "Armada",
+    "year": 2023,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 53395,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Gun Metallic",
+      "Brilliant Silver",
+      "Super Black",
+      "Pearl White TriCoat",
+      "Scarlet Ember Tintcoat",
+      "Midnight Armor"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 10,
+      "heated_seats": "front and second row",
+      "audio_system": "Bose 13-speaker premium audio (Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.nissanusa.com/vehicles/armada/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "nissan-armada-2024",
+    "make": "Nissan",
+    "model": "Armada",
+    "year": 2024,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 57050,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Gun Metallic",
+      "Brilliant Silver",
+      "Super Black",
+      "Pearl White TriCoat",
+      "Scarlet Ember Tintcoat",
+      "Midnight Armor"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 10,
+      "heated_seats": "front and second row",
+      "audio_system": "Bose 13-speaker premium audio (Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.nissanusa.com/vehicles/armada/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "nissan-armada-2025",
+    "make": "Nissan",
+    "model": "Armada",
+    "year": 2025,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 58500,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Gun Metallic",
+      "Brilliant Silver",
+      "Super Black",
+      "Pearl White TriCoat",
+      "Scarlet Ember Tintcoat",
+      "Midnight Armor"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 10,
+      "heated_seats": "front and second row",
+      "audio_system": "Bose 13-speaker premium audio (Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.nissanusa.com/vehicles/armada/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "nissan-rogue-2021",
+    "make": "Nissan",
+    "model": "Rogue",
+    "year": 2021,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 26650,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Gun Metallic",
+      "Brilliant Silver",
+      "Super Black",
+      "Pearl White TriCoat",
+      "Sunset Drift ChromaFlair",
+      "Monarch Orange",
+      "Deep Blue Pearl",
+      "Baja Storm"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick+",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 5,
+      "heated_seats": "front only (SV and above)",
+      "audio_system": "Bose 10-speaker premium audio (SL and Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.nissanusa.com/vehicles/rogue/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "nissan-rogue-2022",
+    "make": "Nissan",
+    "model": "Rogue",
+    "year": 2022,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 27360,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Gun Metallic",
+      "Brilliant Silver",
+      "Super Black",
+      "Pearl White TriCoat",
+      "Sunset Drift ChromaFlair",
+      "Monarch Orange",
+      "Deep Blue Pearl",
+      "Baja Storm"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick+",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 5,
+      "heated_seats": "front only (SV and above)",
+      "audio_system": "Bose 10-speaker premium audio (SL and Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.nissanusa.com/vehicles/rogue/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "nissan-rogue-2023",
+    "make": "Nissan",
+    "model": "Rogue",
+    "year": 2023,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 28040,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Gun Metallic",
+      "Brilliant Silver",
+      "Super Black",
+      "Pearl White TriCoat",
+      "Sunset Drift ChromaFlair",
+      "Monarch Orange",
+      "Deep Blue Pearl",
+      "Baja Storm"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick+",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 5,
+      "heated_seats": "front only (SV and above)",
+      "audio_system": "Bose 10-speaker premium audio (SL and Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.nissanusa.com/vehicles/rogue/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "nissan-rogue-2024",
+    "make": "Nissan",
+    "model": "Rogue",
+    "year": 2024,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 29050,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Gun Metallic",
+      "Brilliant Silver",
+      "Super Black",
+      "Pearl White TriCoat",
+      "Sunset Drift ChromaFlair",
+      "Monarch Orange",
+      "Deep Blue Pearl",
+      "Baja Storm"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick+",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 5,
+      "heated_seats": "front only (SV and above)",
+      "audio_system": "Bose 10-speaker premium audio (SL and Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.nissanusa.com/vehicles/rogue/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "nissan-rogue-2025",
+    "make": "Nissan",
+    "model": "Rogue",
+    "year": 2025,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 30000,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Gun Metallic",
+      "Brilliant Silver",
+      "Super Black",
+      "Pearl White TriCoat",
+      "Sunset Drift ChromaFlair",
+      "Monarch Orange",
+      "Deep Blue Pearl",
+      "Baja Storm"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 5,
+      "heated_seats": "front only (SV and above)",
+      "audio_system": "Bose 10-speaker premium audio (SL and Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.nissanusa.com/vehicles/rogue/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "nissan-altima-2021",
+    "make": "Nissan",
+    "model": "Altima",
+    "year": 2021,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 30235,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Gun Metallic",
+      "Brilliant Silver",
+      "Super Black",
+      "Pearl White TriCoat",
+      "Deep Blue Pearl",
+      "Scarlet Ember Tintcoat",
+      "Storm Blue"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 4,
+      "heated_seats": "front only (SV and above)",
+      "audio_system": "Bose 9-speaker premium audio (SL and Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.nissanusa.com/vehicles/altima/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "nissan-altima-2022",
+    "make": "Nissan",
+    "model": "Altima",
+    "year": 2022,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 31010,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Gun Metallic",
+      "Brilliant Silver",
+      "Super Black",
+      "Pearl White TriCoat",
+      "Deep Blue Pearl",
+      "Scarlet Ember Tintcoat",
+      "Storm Blue"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 4,
+      "heated_seats": "front only (SV and above)",
+      "audio_system": "Bose 9-speaker premium audio (SL and Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.nissanusa.com/vehicles/altima/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "nissan-altima-2023",
+    "make": "Nissan",
+    "model": "Altima",
+    "year": 2023,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 31410,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Gun Metallic",
+      "Brilliant Silver",
+      "Super Black",
+      "Pearl White TriCoat",
+      "Deep Blue Pearl",
+      "Scarlet Ember Tintcoat",
+      "Storm Blue"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick+",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 4,
+      "heated_seats": "front only (SV and above)",
+      "audio_system": "Bose 9-speaker premium audio (SL and Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.nissanusa.com/vehicles/altima/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "nissan-altima-2024",
+    "make": "Nissan",
+    "model": "Altima",
+    "year": 2024,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 32710,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Gun Metallic",
+      "Brilliant Silver",
+      "Super Black",
+      "Pearl White TriCoat",
+      "Deep Blue Pearl",
+      "Scarlet Ember Tintcoat",
+      "Storm Blue"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick+",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 4,
+      "heated_seats": "front only (SV and above)",
+      "audio_system": "Bose 9-speaker premium audio (SL and Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.nissanusa.com/vehicles/altima/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "nissan-altima-2025",
+    "make": "Nissan",
+    "model": "Altima",
+    "year": 2025,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 33500,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Gun Metallic",
+      "Brilliant Silver",
+      "Super Black",
+      "Pearl White TriCoat",
+      "Deep Blue Pearl",
+      "Scarlet Ember Tintcoat",
+      "Storm Blue"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 4,
+      "heated_seats": "front only (SV and above)",
+      "audio_system": "Bose 9-speaker premium audio (SL and Platinum)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.nissanusa.com/vehicles/altima/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "mercedes-benz-glc-2021",
+    "make": "Mercedes-Benz",
+    "model": "GLC",
+    "year": 2021,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 44200,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Polar White",
+      "Obsidian Black Metallic",
+      "Selenite Gray Metallic",
+      "High-Tech Silver Metallic",
+      "Spectral Blue Metallic",
+      "Mojave Silver Metallic",
+      "Emerald Green Metallic",
+      "Manufaktur Patagonia Red Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 4,
+      "heated_seats": "front standard; rear optional on AMG Line",
+      "audio_system": "Burmester 3D surround sound 15-speaker (optional)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.mbusa.com/en/vehicles/class/glc/overview.html",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "mercedes-benz-glc-2022",
+    "make": "Mercedes-Benz",
+    "model": "GLC",
+    "year": 2022,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 45900,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Polar White",
+      "Obsidian Black Metallic",
+      "Selenite Gray Metallic",
+      "High-Tech Silver Metallic",
+      "Spectral Blue Metallic",
+      "Mojave Silver Metallic",
+      "Emerald Green Metallic",
+      "Manufaktur Patagonia Red Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 4,
+      "heated_seats": "front standard; rear optional on AMG Line",
+      "audio_system": "Burmester 3D surround sound 15-speaker (optional)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.mbusa.com/en/vehicles/class/glc/overview.html",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "mercedes-benz-glc-2023",
+    "make": "Mercedes-Benz",
+    "model": "GLC",
+    "year": 2023,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 47800,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Polar White",
+      "Obsidian Black Metallic",
+      "Selenite Gray Metallic",
+      "High-Tech Silver Metallic",
+      "Spectral Blue Metallic",
+      "Mojave Silver Metallic",
+      "Emerald Green Metallic",
+      "Manufaktur Patagonia Red Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick+",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 4,
+      "heated_seats": "front standard; rear optional on AMG Line",
+      "audio_system": "Burmester 3D surround sound 15-speaker (optional)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.mbusa.com/en/vehicles/class/glc/overview.html",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "mercedes-benz-glc-2024",
+    "make": "Mercedes-Benz",
+    "model": "GLC",
+    "year": 2024,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 49150,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Polar White",
+      "Obsidian Black Metallic",
+      "Selenite Gray Metallic",
+      "High-Tech Silver Metallic",
+      "Spectral Blue Metallic",
+      "Mojave Silver Metallic",
+      "Emerald Green Metallic",
+      "Manufaktur Patagonia Red Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick+",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 4,
+      "heated_seats": "front standard; rear optional on AMG Line",
+      "audio_system": "Burmester 3D surround sound 15-speaker (optional)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.mbusa.com/en/vehicles/class/glc/overview.html",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "mercedes-benz-glc-2025",
+    "make": "Mercedes-Benz",
+    "model": "GLC",
+    "year": 2025,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 50500,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Polar White",
+      "Obsidian Black Metallic",
+      "Selenite Gray Metallic",
+      "High-Tech Silver Metallic",
+      "Spectral Blue Metallic",
+      "Mojave Silver Metallic",
+      "Emerald Green Metallic",
+      "Manufaktur Patagonia Red Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 4,
+      "heated_seats": "front standard; rear optional on AMG Line",
+      "audio_system": "Burmester 3D surround sound 15-speaker (optional)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.mbusa.com/en/vehicles/class/glc/overview.html",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "mercedes-benz-gle-2021",
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "year": 2021,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 55800,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Polar White",
+      "Obsidian Black Metallic",
+      "Selenite Gray Metallic",
+      "Brilliant Blue Metallic",
+      "Iridium Silver Metallic",
+      "Emerald Green Metallic",
+      "Rubellite Red Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 6,
+      "heated_seats": "front standard; second row on Premium package",
+      "audio_system": "Burmester 3D surround sound 13-speaker (optional)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.mbusa.com/en/vehicles/class/gle/overview.html",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "mercedes-benz-gle-2022",
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "year": 2022,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 57100,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Polar White",
+      "Obsidian Black Metallic",
+      "Selenite Gray Metallic",
+      "Brilliant Blue Metallic",
+      "Iridium Silver Metallic",
+      "Emerald Green Metallic",
+      "Rubellite Red Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 6,
+      "heated_seats": "front standard; second row on Premium package",
+      "audio_system": "Burmester 3D surround sound 13-speaker (optional)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.mbusa.com/en/vehicles/class/gle/overview.html",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "mercedes-benz-gle-2023",
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "year": 2023,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 58700,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Polar White",
+      "Obsidian Black Metallic",
+      "Selenite Gray Metallic",
+      "Brilliant Blue Metallic",
+      "Iridium Silver Metallic",
+      "Emerald Green Metallic",
+      "Rubellite Red Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 6,
+      "heated_seats": "front standard; second row on Premium package",
+      "audio_system": "Burmester 3D surround sound 13-speaker (optional)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.mbusa.com/en/vehicles/class/gle/overview.html",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "mercedes-benz-gle-2024",
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "year": 2024,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "high",
+    "msrp_usd": 60150,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Polar White",
+      "Obsidian Black Metallic",
+      "Selenite Gray Metallic",
+      "Brilliant Blue Metallic",
+      "Iridium Silver Metallic",
+      "Emerald Green Metallic",
+      "Rubellite Red Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 6,
+      "heated_seats": "front standard; second row on Premium package",
+      "audio_system": "Burmester 3D surround sound 13-speaker (optional)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.mbusa.com/en/vehicles/class/gle/overview.html",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "mercedes-benz-gle-2025",
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "year": 2025,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "high",
+    "msrp_usd": 62000,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Polar White",
+      "Obsidian Black Metallic",
+      "Selenite Gray Metallic",
+      "Brilliant Blue Metallic",
+      "Iridium Silver Metallic",
+      "Emerald Green Metallic",
+      "Rubellite Red Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 6,
+      "heated_seats": "front standard; second row on Premium package",
+      "audio_system": "Burmester 3D surround sound 13-speaker (optional)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.mbusa.com/en/vehicles/class/gle/overview.html",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "mercedes-benz-gls-2021",
+    "make": "Mercedes-Benz",
+    "model": "GLS",
+    "year": 2021,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "high",
+    "msrp_usd": 77300,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Polar White",
+      "Obsidian Black Metallic",
+      "Selenite Gray Metallic",
+      "Brilliant Blue Metallic",
+      "Iridium Silver Metallic",
+      "Emerald Green Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 8,
+      "heated_seats": "front and second row standard; third row on Executive package",
+      "audio_system": "Burmester 4D surround sound 27-speaker (optional)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.mbusa.com/en/vehicles/class/gls/overview.html",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "mercedes-benz-gls-2022",
+    "make": "Mercedes-Benz",
+    "model": "GLS",
+    "year": 2022,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "high",
+    "msrp_usd": 78750,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Polar White",
+      "Obsidian Black Metallic",
+      "Selenite Gray Metallic",
+      "Brilliant Blue Metallic",
+      "Iridium Silver Metallic",
+      "Emerald Green Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 8,
+      "heated_seats": "front and second row standard; third row on Executive package",
+      "audio_system": "Burmester 4D surround sound 27-speaker (optional)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.mbusa.com/en/vehicles/class/gls/overview.html",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "mercedes-benz-gls-2023",
+    "make": "Mercedes-Benz",
+    "model": "GLS",
+    "year": 2023,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "high",
+    "msrp_usd": 79400,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Polar White",
+      "Obsidian Black Metallic",
+      "Selenite Gray Metallic",
+      "Brilliant Blue Metallic",
+      "Iridium Silver Metallic",
+      "Emerald Green Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 8,
+      "heated_seats": "front and second row standard; third row on Executive package",
+      "audio_system": "Burmester 4D surround sound 27-speaker (optional)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.mbusa.com/en/vehicles/class/gls/overview.html",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "mercedes-benz-gls-2024",
+    "make": "Mercedes-Benz",
+    "model": "GLS",
+    "year": 2024,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "high",
+    "msrp_usd": 79900,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Polar White",
+      "Obsidian Black Metallic",
+      "Selenite Gray Metallic",
+      "Brilliant Blue Metallic",
+      "Iridium Silver Metallic",
+      "Emerald Green Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 8,
+      "heated_seats": "front and second row standard; third row on Executive package",
+      "audio_system": "Burmester 4D surround sound 27-speaker (optional)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.mbusa.com/en/vehicles/class/gls/overview.html",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "mercedes-benz-gls-2025",
+    "make": "Mercedes-Benz",
+    "model": "GLS",
+    "year": 2025,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "high",
+    "msrp_usd": 80000,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Polar White",
+      "Obsidian Black Metallic",
+      "Selenite Gray Metallic",
+      "Brilliant Blue Metallic",
+      "Iridium Silver Metallic",
+      "Emerald Green Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 8,
+      "heated_seats": "front and second row standard; third row on Executive package",
+      "audio_system": "Burmester 4D surround sound 27-speaker (optional)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.mbusa.com/en/vehicles/class/gls/overview.html",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "mercedes-benz-c-class-2021",
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "year": 2021,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 42600,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Polar White",
+      "Obsidian Black Metallic",
+      "Selenite Gray Metallic",
+      "Spectral Blue Metallic",
+      "Mojave Silver Metallic",
+      "Emerald Green Metallic",
+      "Manufaktur Diamond White Bright"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 3,
+      "heated_seats": "front standard",
+      "audio_system": "Burmester surround sound 15-speaker (optional)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.mbusa.com/en/vehicles/class/c-class/overview.html",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "mercedes-benz-c-class-2022",
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "year": 2022,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 43900,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Polar White",
+      "Obsidian Black Metallic",
+      "Selenite Gray Metallic",
+      "Spectral Blue Metallic",
+      "Mojave Silver Metallic",
+      "Emerald Green Metallic",
+      "Manufaktur Diamond White Bright"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick+",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 3,
+      "heated_seats": "front standard",
+      "audio_system": "Burmester surround sound 15-speaker (optional)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.mbusa.com/en/vehicles/class/c-class/overview.html",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "mercedes-benz-c-class-2023",
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "year": 2023,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 45300,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Polar White",
+      "Obsidian Black Metallic",
+      "Selenite Gray Metallic",
+      "Spectral Blue Metallic",
+      "Mojave Silver Metallic",
+      "Emerald Green Metallic",
+      "Manufaktur Diamond White Bright"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick+",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 3,
+      "heated_seats": "front standard",
+      "audio_system": "Burmester surround sound 15-speaker (optional)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.mbusa.com/en/vehicles/class/c-class/overview.html",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "mercedes-benz-c-class-2024",
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "year": 2024,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 46900,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Polar White",
+      "Obsidian Black Metallic",
+      "Selenite Gray Metallic",
+      "Spectral Blue Metallic",
+      "Mojave Silver Metallic",
+      "Emerald Green Metallic",
+      "Manufaktur Diamond White Bright"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick+",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 3,
+      "heated_seats": "front standard",
+      "audio_system": "Burmester surround sound 15-speaker (optional)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.mbusa.com/en/vehicles/class/c-class/overview.html",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "mercedes-benz-c-class-2025",
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "year": 2025,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 48200,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Polar White",
+      "Obsidian Black Metallic",
+      "Selenite Gray Metallic",
+      "Spectral Blue Metallic",
+      "Mojave Silver Metallic",
+      "Emerald Green Metallic",
+      "Manufaktur Diamond White Bright"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 3,
+      "heated_seats": "front standard",
+      "audio_system": "Burmester surround sound 15-speaker (optional)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.mbusa.com/en/vehicles/class/c-class/overview.html",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "lincoln-corsair-2021",
+    "make": "Lincoln",
+    "model": "Corsair",
+    "year": 2021,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 36850,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Infinite Black",
+      "Pristine White",
+      "Ceramic Pearl",
+      "Chroma Caviar",
+      "Burgundy Velvet",
+      "Bright Copper Metallic",
+      "Iced Mocha"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 4,
+      "heated_seats": "front standard; rear not available",
+      "audio_system": "Revel Ultima 14-speaker premium audio (Reserve)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.lincoln.com/vehicles/corsair/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "lincoln-corsair-2022",
+    "make": "Lincoln",
+    "model": "Corsair",
+    "year": 2022,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 37855,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Infinite Black",
+      "Pristine White",
+      "Ceramic Pearl",
+      "Chroma Caviar",
+      "Burgundy Velvet",
+      "Bright Copper Metallic",
+      "Iced Mocha"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 4,
+      "heated_seats": "front standard; rear not available",
+      "audio_system": "Revel Ultima 14-speaker premium audio (Reserve)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.lincoln.com/vehicles/corsair/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "lincoln-corsair-2023",
+    "make": "Lincoln",
+    "model": "Corsair",
+    "year": 2023,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 38630,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Infinite Black",
+      "Pristine White",
+      "Ceramic Pearl",
+      "Chroma Caviar",
+      "Burgundy Velvet",
+      "Bright Copper Metallic",
+      "Iced Mocha"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick+",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 4,
+      "heated_seats": "front standard; rear not available",
+      "audio_system": "Revel Ultima 14-speaker premium audio (Reserve)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.lincoln.com/vehicles/corsair/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "lincoln-corsair-2024",
+    "make": "Lincoln",
+    "model": "Corsair",
+    "year": 2024,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "low",
+    "msrp_usd": 39920,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Infinite Black",
+      "Pristine White",
+      "Ceramic Pearl",
+      "Chroma Caviar",
+      "Burgundy Velvet",
+      "Bright Copper Metallic",
+      "Iced Mocha"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick+",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 4,
+      "heated_seats": "front standard; rear not available",
+      "audio_system": "Revel Ultima 14-speaker premium audio (Reserve)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.lincoln.com/vehicles/corsair/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "lincoln-corsair-2025",
+    "make": "Lincoln",
+    "model": "Corsair",
+    "year": 2025,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 41000,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Infinite Black",
+      "Pristine White",
+      "Ceramic Pearl",
+      "Chroma Caviar",
+      "Burgundy Velvet",
+      "Bright Copper Metallic",
+      "Iced Mocha"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 4,
+      "heated_seats": "front standard; rear not available",
+      "audio_system": "Revel Ultima 14-speaker premium audio (Reserve)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.lincoln.com/vehicles/corsair/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "lincoln-nautilus-2021",
+    "make": "Lincoln",
+    "model": "Nautilus",
+    "year": 2021,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 43175,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Infinite Black",
+      "Pristine White",
+      "Ceramic Pearl",
+      "Chroma Caviar",
+      "Burgundy Velvet",
+      "Iced Mocha",
+      "Pristine White Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 6,
+      "heated_seats": "front standard; rear on Reserve and Black Label",
+      "audio_system": "Revel Ultima Studio 13-speaker (Black Label)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.lincoln.com/vehicles/nautilus/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "lincoln-nautilus-2022",
+    "make": "Lincoln",
+    "model": "Nautilus",
+    "year": 2022,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 44510,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Infinite Black",
+      "Pristine White",
+      "Ceramic Pearl",
+      "Chroma Caviar",
+      "Burgundy Velvet",
+      "Iced Mocha",
+      "Pristine White Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 6,
+      "heated_seats": "front standard; rear on Reserve and Black Label",
+      "audio_system": "Revel Ultima Studio 13-speaker (Black Label)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.lincoln.com/vehicles/nautilus/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "lincoln-nautilus-2023",
+    "make": "Lincoln",
+    "model": "Nautilus",
+    "year": 2023,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 46255,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Infinite Black",
+      "Pristine White",
+      "Ceramic Pearl",
+      "Chroma Caviar",
+      "Burgundy Velvet",
+      "Iced Mocha",
+      "Pristine White Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 6,
+      "heated_seats": "front standard; rear on Reserve and Black Label",
+      "audio_system": "Revel Ultima Studio 13-speaker (Black Label)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.lincoln.com/vehicles/nautilus/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "lincoln-nautilus-2024",
+    "make": "Lincoln",
+    "model": "Nautilus",
+    "year": 2024,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 47630,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Infinite Black",
+      "Pristine White",
+      "Ceramic Pearl",
+      "Chroma Caviar",
+      "Burgundy Velvet",
+      "Iced Mocha",
+      "Pristine White Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": "Top Safety Pick",
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 6,
+      "heated_seats": "front standard; rear on Reserve and Black Label",
+      "audio_system": "Revel Ultima Studio 13-speaker (Black Label)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.lincoln.com/vehicles/nautilus/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "lincoln-nautilus-2025",
+    "make": "Lincoln",
+    "model": "Nautilus",
+    "year": 2025,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 49500,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Infinite Black",
+      "Pristine White",
+      "Ceramic Pearl",
+      "Chroma Caviar",
+      "Burgundy Velvet",
+      "Iced Mocha",
+      "Pristine White Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 6,
+      "heated_seats": "front standard; rear on Reserve and Black Label",
+      "audio_system": "Revel Ultima Studio 13-speaker (Black Label)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.lincoln.com/vehicles/nautilus/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "lincoln-aviator-2021",
+    "make": "Lincoln",
+    "model": "Aviator",
+    "year": 2021,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 52195,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Infinite Black",
+      "Pristine White",
+      "Ceramic Pearl",
+      "Chroma Caviar",
+      "Burgundy Velvet",
+      "Iced Mocha",
+      "Flight Blue"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 8,
+      "heated_seats": "front and second row standard; third row on Black Label",
+      "audio_system": "Revel Ultima Studio 28-speaker (Black Label)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.lincoln.com/vehicles/aviator/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "lincoln-aviator-2022",
+    "make": "Lincoln",
+    "model": "Aviator",
+    "year": 2022,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 53895,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Infinite Black",
+      "Pristine White",
+      "Ceramic Pearl",
+      "Chroma Caviar",
+      "Burgundy Velvet",
+      "Iced Mocha",
+      "Flight Blue"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 8,
+      "heated_seats": "front and second row standard; third row on Black Label",
+      "audio_system": "Revel Ultima Studio 28-speaker (Black Label)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.lincoln.com/vehicles/aviator/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "lincoln-aviator-2023",
+    "make": "Lincoln",
+    "model": "Aviator",
+    "year": 2023,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 56595,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Infinite Black",
+      "Pristine White",
+      "Ceramic Pearl",
+      "Chroma Caviar",
+      "Burgundy Velvet",
+      "Iced Mocha",
+      "Flight Blue"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 8,
+      "heated_seats": "front and second row standard; third row on Black Label",
+      "audio_system": "Revel Ultima Studio 28-speaker (Black Label)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.lincoln.com/vehicles/aviator/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "lincoln-aviator-2024",
+    "make": "Lincoln",
+    "model": "Aviator",
+    "year": 2024,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "medium",
+    "msrp_usd": 58895,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Infinite Black",
+      "Pristine White",
+      "Ceramic Pearl",
+      "Chroma Caviar",
+      "Burgundy Velvet",
+      "Iced Mocha",
+      "Flight Blue"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 8,
+      "heated_seats": "front and second row standard; third row on Black Label",
+      "audio_system": "Revel Ultima Studio 28-speaker (Black Label)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.lincoln.com/vehicles/aviator/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "lincoln-aviator-2025",
+    "make": "Lincoln",
+    "model": "Aviator",
+    "year": 2025,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "high",
+    "msrp_usd": 60000,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Infinite Black",
+      "Pristine White",
+      "Ceramic Pearl",
+      "Chroma Caviar",
+      "Burgundy Velvet",
+      "Iced Mocha",
+      "Flight Blue"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 8,
+      "heated_seats": "front and second row standard; third row on Black Label",
+      "audio_system": "Revel Ultima Studio 28-speaker (Black Label)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.lincoln.com/vehicles/aviator/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "lincoln-navigator-2021",
+    "make": "Lincoln",
+    "model": "Navigator",
+    "year": 2021,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "high",
+    "msrp_usd": 77410,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Infinite Black",
+      "Pristine White",
+      "Ceramic Pearl",
+      "Chroma Caviar",
+      "Burgundy Velvet",
+      "Iced Mocha",
+      "Pristine White Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 10,
+      "heated_seats": "front and second row standard; third row on Black Label",
+      "audio_system": "Revel Ultima Studio 28-speaker (Black Label)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.lincoln.com/vehicles/navigator/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "lincoln-navigator-2022",
+    "make": "Lincoln",
+    "model": "Navigator",
+    "year": 2022,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "high",
+    "msrp_usd": 78510,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Infinite Black",
+      "Pristine White",
+      "Ceramic Pearl",
+      "Chroma Caviar",
+      "Burgundy Velvet",
+      "Iced Mocha",
+      "Pristine White Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 10,
+      "heated_seats": "front and second row standard; third row on Black Label",
+      "audio_system": "Revel Ultima Studio 28-speaker (Black Label)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.lincoln.com/vehicles/navigator/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "lincoln-navigator-2023",
+    "make": "Lincoln",
+    "model": "Navigator",
+    "year": 2023,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "high",
+    "msrp_usd": 79310,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Infinite Black",
+      "Pristine White",
+      "Ceramic Pearl",
+      "Chroma Caviar",
+      "Burgundy Velvet",
+      "Iced Mocha",
+      "Pristine White Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 10,
+      "heated_seats": "front and second row standard; third row on Black Label",
+      "audio_system": "Revel Ultima Studio 28-speaker (Black Label)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.lincoln.com/vehicles/navigator/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "lincoln-navigator-2024",
+    "make": "Lincoln",
+    "model": "Navigator",
+    "year": 2024,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "high",
+    "msrp_usd": 79810,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Infinite Black",
+      "Pristine White",
+      "Ceramic Pearl",
+      "Chroma Caviar",
+      "Burgundy Velvet",
+      "Iced Mocha",
+      "Pristine White Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 10,
+      "heated_seats": "front and second row standard; third row on Black Label",
+      "audio_system": "Revel Ultima Studio 28-speaker (Black Label)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.lincoln.com/vehicles/navigator/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  },
+  {
+    "id": "lincoln-navigator-2025",
+    "make": "Lincoln",
+    "model": "Navigator",
+    "year": 2025,
+    "body_type": null,
+    "has_awd": true,
+    "is_hybrid": false,
+    "price_tier": "high",
+    "msrp_usd": 80000,
+    "seats": null,
+    "mpg_city": null,
+    "mpg_highway": null,
+    "mpg_combined": null,
+    "fuel_type": null,
+    "color_options": [
+      "Infinite Black",
+      "Pristine White",
+      "Ceramic Pearl",
+      "Chroma Caviar",
+      "Burgundy Velvet",
+      "Iced Mocha",
+      "Pristine White Metallic"
+    ],
+    "safety": {
+      "nhtsa_overall": null,
+      "nhtsa_front_crash": null,
+      "nhtsa_side_crash": null,
+      "nhtsa_rollover": null,
+      "nhtsa_source_url": null,
+      "iihs_overall": null,
+      "iihs_source_url": "https://www.iihs.org/ratings/top-safety-picks"
+    },
+    "details": {
+      "cup_holders": 10,
+      "heated_seats": "front and second row standard; third row on Black Label",
+      "audio_system": "Revel Ultima Studio 28-speaker (Black Label)"
+    },
+    "images": {
+      "exterior": [],
+      "interior": []
+    },
+    "source_urls": {
+      "manufacturer": "https://www.lincoln.com/vehicles/navigator/",
+      "fuel_economy": null,
+      "nhtsa_safety": null
+    }
+  }
+]

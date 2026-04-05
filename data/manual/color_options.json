@@ -1,0 +1,31 @@
+{
+  "_note": "Available exterior color options per make/model (current model year). Source: manufacturer configurator pages. Not all colors available on all trims.",
+  "Toyota": {
+    "RAV4":       ["Blueprint", "Midnight Black Metallic", "Super White", "Silver Sky Metallic", "Magnetic Gray Metallic", "Cavalry Blue", "Lunar Rock", "Ruby Flare Pearl", "Wind Chill Pearl"],
+    "Highlander": ["Midnight Black Metallic", "Celestial Silver Metallic", "Magnetic Gray Metallic", "Blueprint", "Ruby Flare Pearl", "Wind Chill Pearl", "Opulent Amber", "Blizzard Pearl"],
+    "Sienna":     ["Midnight Black Metallic", "Blueprint", "Predawn Gray Mica", "Blizzard Pearl", "Cavalry Blue", "Supersonic Red", "Cement"],
+    "Venza":      ["Midnight Black Metallic", "Coastal Gray Metallic", "Ruby Flare Pearl", "Wind Chill Pearl", "Blueprint", "Magnetic Gray Metallic"],
+    "4Runner":    ["Midnight Black Metallic", "Super White", "Magnetic Gray Metallic", "Barcelona Red Metallic", "Army Green", "Solar Octane", "Lunar Rock", "Ice Cap", "Midnight Black"],
+    "Sequoia":    ["Midnight Black Metallic", "Smoked Mesquite", "Blizzard Pearl", "Wind Chill Pearl", "Cavalry Blue", "Solar Octane", "Infrared"],
+    "Camry":      ["Midnight Black Metallic", "Predawn Gray Mica", "Supersonic Red", "Wind Chill Pearl", "Reservoir Blue Metallic", "Cavalry Blue", "Celestial Silver Metallic", "Ruby Flare Pearl", "Blueprint"]
+  },
+  "Nissan": {
+    "Pathfinder": ["Gun Metallic", "Brilliant Silver", "Super Black", "Pearl White TriCoat", "Scarlet Ember Tintcoat", "Baja Storm", "Deep Blue Pearl"],
+    "Murano":     ["Gun Metallic", "Brilliant Silver", "Super Black", "Pearl White TriCoat", "Scarlet Ember Tintcoat", "Pacific Sunset"],
+    "Armada":     ["Gun Metallic", "Brilliant Silver", "Super Black", "Pearl White TriCoat", "Scarlet Ember Tintcoat", "Midnight Armor"],
+    "Rogue":      ["Gun Metallic", "Brilliant Silver", "Super Black", "Pearl White TriCoat", "Sunset Drift ChromaFlair", "Monarch Orange", "Deep Blue Pearl", "Baja Storm"],
+    "Altima":     ["Gun Metallic", "Brilliant Silver", "Super Black", "Pearl White TriCoat", "Deep Blue Pearl", "Scarlet Ember Tintcoat", "Storm Blue"]
+  },
+  "Mercedes-Benz": {
+    "GLC":     ["Polar White", "Obsidian Black Metallic", "Selenite Gray Metallic", "High-Tech Silver Metallic", "Spectral Blue Metallic", "Mojave Silver Metallic", "Emerald Green Metallic", "Manufaktur Patagonia Red Metallic"],
+    "GLE":     ["Polar White", "Obsidian Black Metallic", "Selenite Gray Metallic", "Brilliant Blue Metallic", "Iridium Silver Metallic", "Emerald Green Metallic", "Rubellite Red Metallic"],
+    "GLS":     ["Polar White", "Obsidian Black Metallic", "Selenite Gray Metallic", "Brilliant Blue Metallic", "Iridium Silver Metallic", "Emerald Green Metallic"],
+    "C-Class": ["Polar White", "Obsidian Black Metallic", "Selenite Gray Metallic", "Spectral Blue Metallic", "Mojave Silver Metallic", "Emerald Green Metallic", "Manufaktur Diamond White Bright"]
+  },
+  "Lincoln": {
+    "Corsair":   ["Infinite Black", "Pristine White", "Ceramic Pearl", "Chroma Caviar", "Burgundy Velvet", "Bright Copper Metallic", "Iced Mocha"],
+    "Nautilus":  ["Infinite Black", "Pristine White", "Ceramic Pearl", "Chroma Caviar", "Burgundy Velvet", "Iced Mocha", "Pristine White Metallic"],
+    "Aviator":   ["Infinite Black", "Pristine White", "Ceramic Pearl", "Chroma Caviar", "Burgundy Velvet", "Iced Mocha", "Flight Blue"],
+    "Navigator": ["Infinite Black", "Pristine White", "Ceramic Pearl", "Chroma Caviar", "Burgundy Velvet", "Iced Mocha", "Pristine White Metallic"]
+  }
+}

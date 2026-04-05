@@ -1,0 +1,70 @@
+{# Reusable car card macro #}
+{% macro car_card(car, root="") %}
+<article class="car-card"
+  data-make="{{ car.make }}"
+  data-body="{{ car.body_type or '' }}"
+  data-tier="{{ car.price_tier }}"
+  data-hybrid="{{ 'true' if car.is_hybrid else 'false' }}">
+
+  <a href="{{ root }}cars/{{ car.id }}.html" class="card-image-link">
+    {% if car.images.exterior %}
+      <img
+        class="card-hero"
+        src="{{ root }}{{ car.images.exterior[0] }}"
+        alt="{{ car.year }} {{ car.make }} {{ car.model }}"
+        loading="lazy"
+        onerror="this.src='{{ root }}static/images/placeholder.svg'">
+    {% else %}
+      <div class="card-hero card-no-image">No image available</div>
+    {% endif %}
+    {% if car.is_hybrid %}
+      <span class="badge badge-hybrid">Hybrid</span>
+    {% endif %}
+  </a>
+
+  <div class="card-body">
+    <div class="card-title-row">
+      <h3 class="card-title">
+        <a href="{{ root }}cars/{{ car.id }}.html">{{ car.year }} {{ car.make }} {{ car.model }}</a>
+      </h3>
+      <span class="badge badge-tier badge-tier-{{ car.price_tier }}">{{ car.price_tier | title }}</span>
+    </div>
+
+    {% if car.body_type %}
+      <p class="card-body-type">{{ car.body_type }}</p>
+    {% endif %}
+
+    <dl class="card-specs">
+      <dt>MSRP</dt>
+      <dd>${{ "{:,.0f}".format(car.msrp_usd) }}</dd>
+
+      {% if car.mpg_combined %}
+        <dt>MPG (combined)</dt>
+        <dd>{{ car.mpg_combined }}</dd>
+      {% endif %}
+
+      {% if car.seats %}
+        <dt>Seats</dt>
+        <dd>{{ car.seats }}</dd>
+      {% endif %}
+
+      <dt>AWD</dt>
+      <dd>&#10003; Available</dd>
+    </dl>
+
+    {% set overall = car.safety.nhtsa_overall %}
+    {% if overall %}
+      <div class="card-safety">
+        <span class="safety-label">NHTSA</span>
+        <span class="stars" title="{{ overall }}/5 stars">
+          {% for i in range(1, 6) %}
+            <span class="star {% if i <= overall %}star-filled{% else %}star-empty{% endif %}">&#9733;</span>
+          {% endfor %}
+        </span>
+      </div>
+    {% endif %}
+
+    <a href="{{ root }}cars/{{ car.id }}.html" class="btn btn-primary">View Details</a>
+  </div>
+</article>
+{% endmacro %}

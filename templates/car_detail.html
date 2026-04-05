@@ -1,0 +1,194 @@
+{% extends "base.html" %}
+
+{% block title %}{{ car.year }} {{ car.make }} {{ car.model }}{% endblock %}
+
+{% block content %}
+<nav class="breadcrumb">
+  <a href="../index.html">All Cars</a>
+  &rsaquo;
+  <a href="../{{ car.make | lower | replace(' ', '-') | replace('-benz', '-benz') }}.html">{{ car.make }}</a>
+  &rsaquo;
+  <span>{{ car.year }} {{ car.model }}</span>
+</nav>
+
+<div class="detail-header">
+  <div class="detail-title-block">
+    <h1>{{ car.year }} {{ car.make }} {{ car.model }}</h1>
+    {% if car.body_type %}<p class="detail-body-type">{{ car.body_type }}</p>{% endif %}
+    <div class="detail-badges">
+      {% if car.is_hybrid %}<span class="badge badge-hybrid">Hybrid</span>{% endif %}
+      <span class="badge badge-tier badge-tier-{{ car.price_tier }}">{{ car.price_tier | title }} — ${{ "{:,.0f}".format(car.msrp_usd) }}</span>
+      <span class="badge badge-awd">AWD Available</span>
+    </div>
+  </div>
+</div>
+
+{# Image Gallery #}
+{% if car.images.exterior or car.images.interior %}
+<section class="gallery-section">
+  {% if car.images.exterior %}
+    <h2 class="gallery-heading">Exterior</h2>
+    <div class="gallery-scroll" data-gallery="exterior-{{ car.id }}">
+      {% for img_path in car.images.exterior %}
+        <img
+          src="../{{ img_path }}"
+          alt="{{ car.year }} {{ car.make }} {{ car.model }} exterior {{ loop.index }}"
+          loading="lazy"
+          class="gallery-thumb"
+          data-full="../{{ img_path }}"
+          onerror="this.style.display='none'">
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {% if car.images.interior %}
+    <h2 class="gallery-heading">Interior</h2>
+    <div class="gallery-scroll" data-gallery="interior-{{ car.id }}">
+      {% for img_path in car.images.interior %}
+        <img
+          src="../{{ img_path }}"
+          alt="{{ car.year }} {{ car.make }} {{ car.model }} interior {{ loop.index }}"
+          loading="lazy"
+          class="gallery-thumb"
+          data-full="../{{ img_path }}"
+          onerror="this.style.display='none'">
+      {% endfor %}
+    </div>
+  {% endif %}
+</section>
+{% endif %}
+
+{# Main specs grid #}
+<section class="detail-specs-section">
+  <h2>Specifications</h2>
+  <dl class="spec-grid">
+    <dt>Base MSRP</dt>
+    <dd>${{ "{:,.0f}".format(car.msrp_usd) }}</dd>
+
+    {% if car.seats %}
+    <dt>Seating</dt>
+    <dd>{{ car.seats }} passengers</dd>
+    {% endif %}
+
+    {% if car.mpg_combined %}
+    <dt>Fuel Economy</dt>
+    <dd>{{ car.mpg_city }} city / {{ car.mpg_highway }} hwy / {{ car.mpg_combined }} combined MPG</dd>
+    {% endif %}
+
+    {% if car.fuel_type %}
+    <dt>Fuel Type</dt>
+    <dd>{{ car.fuel_type }}{% if car.is_hybrid %} (Hybrid){% endif %}</dd>
+    {% endif %}
+
+    <dt>Drivetrain</dt>
+    <dd>AWD Available</dd>
+
+    {% if car.color_options %}
+    <dt>Color Options</dt>
+    <dd>
+      <ul class="color-list">
+        {% for color in car.color_options %}
+          <li>{{ color }}</li>
+        {% endfor %}
+      </ul>
+    </dd>
+    {% endif %}
+  </dl>
+</section>
+
+{# Safety Ratings #}
+<section class="detail-safety-section">
+  <h2>Safety Ratings</h2>
+  <div class="safety-grid">
+    {% set n = car.safety %}
+
+    <div class="safety-card">
+      <h3>NHTSA Overall</h3>
+      {% if n.nhtsa_overall %}
+        <div class="stars stars-lg">
+          {% for i in range(1, 6) %}
+            <span class="star {% if i <= n.nhtsa_overall %}star-filled{% else %}star-empty{% endif %}">&#9733;</span>
+          {% endfor %}
+        </div>
+        <p class="safety-detail">{{ n.nhtsa_overall }}/5 stars</p>
+      {% else %}
+        <p class="safety-none">Not yet rated</p>
+      {% endif %}
+      {% if n.nhtsa_source_url %}
+        <a href="{{ n.nhtsa_source_url }}" target="_blank" rel="noopener" class="safety-link">NHTSA source &#8599;</a>
+      {% endif %}
+    </div>
+
+    {% if n.nhtsa_front_crash or n.nhtsa_side_crash or n.nhtsa_rollover %}
+    <div class="safety-card">
+      <h3>NHTSA Detail</h3>
+      <dl class="safety-detail-grid">
+        {% if n.nhtsa_front_crash %}
+          <dt>Front Crash</dt><dd>{{ n.nhtsa_front_crash }}/5 &#9733;</dd>
+        {% endif %}
+        {% if n.nhtsa_side_crash %}
+          <dt>Side Crash</dt><dd>{{ n.nhtsa_side_crash }}/5 &#9733;</dd>
+        {% endif %}
+        {% if n.nhtsa_rollover %}
+          <dt>Rollover</dt><dd>{{ n.nhtsa_rollover }}/5 &#9733;</dd>
+        {% endif %}
+      </dl>
+    </div>
+    {% endif %}
+
+    <div class="safety-card">
+      <h3>IIHS Rating</h3>
+      {% if n.iihs_overall %}
+        <p class="iihs-badge {% if '+' in n.iihs_overall %}iihs-plus{% else %}iihs-pick{% endif %}">
+          {{ n.iihs_overall }}
+        </p>
+      {% else %}
+        <p class="safety-none">Not awarded</p>
+      {% endif %}
+      <a href="{{ n.iihs_source_url }}" target="_blank" rel="noopener" class="safety-link">IIHS source &#8599;</a>
+    </div>
+  </div>
+</section>
+
+{# Additional Details Accordion #}
+{% if car.details %}
+<section class="detail-accordion-section">
+  <button class="accordion-toggle" aria-expanded="false" aria-controls="extra-details">
+    Additional Details
+    <span class="accordion-icon">&#43;</span>
+  </button>
+  <div class="accordion-panel" id="extra-details" hidden>
+    <dl class="spec-grid">
+      {% if car.details.cup_holders %}
+        <dt>Cup Holders</dt>
+        <dd>{{ car.details.cup_holders }}</dd>
+      {% endif %}
+      {% if car.details.heated_seats %}
+        <dt>Heated Seats</dt>
+        <dd>{{ car.details.heated_seats }}</dd>
+      {% endif %}
+      {% if car.details.audio_system %}
+        <dt>Audio System</dt>
+        <dd>{{ car.details.audio_system }}</dd>
+      {% endif %}
+    </dl>
+  </div>
+</section>
+{% endif %}
+
+{# Source Links #}
+<section class="detail-sources-section">
+  <h2>Sources</h2>
+  <ul class="source-list">
+    {% if car.source_urls.manufacturer %}
+      <li><a href="{{ car.source_urls.manufacturer }}" target="_blank" rel="noopener">Manufacturer page &#8599;</a></li>
+    {% endif %}
+    {% if car.source_urls.fuel_economy %}
+      <li><a href="{{ car.source_urls.fuel_economy }}" target="_blank" rel="noopener">FuelEconomy.gov &#8599;</a></li>
+    {% endif %}
+    {% if car.source_urls.nhtsa_safety %}
+      <li><a href="{{ car.source_urls.nhtsa_safety }}" target="_blank" rel="noopener">NHTSA Safety Data &#8599;</a></li>
+    {% endif %}
+  </ul>
+</section>
+{% endblock %}

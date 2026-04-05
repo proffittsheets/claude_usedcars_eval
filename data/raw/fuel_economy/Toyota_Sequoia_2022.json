@@ -1,0 +1,40 @@
+[
+  {
+    "vehicle_id": "44358",
+    "year": 2022,
+    "make": "Toyota",
+    "model": "Sequoia 2WD",
+    "trany": "Automatic (S6)",
+    "drive": "Rear-Wheel Drive",
+    "fuel_type": "Regular Gasoline",
+    "atv_type": null,
+    "is_hybrid": false,
+    "mpg_city": 13,
+    "mpg_highway": 17,
+    "mpg_combined": 15,
+    "mpg_city_alt": 0,
+    "mpg_highway_alt": 0,
+    "mpg_combined_alt": 0,
+    "annual_fuel_cost": 4000,
+    "source_url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=44358"
+  },
+  {
+    "vehicle_id": "44359",
+    "year": 2022,
+    "make": "Toyota",
+    "model": "Sequoia 4WD",
+    "trany": "Automatic (S6)",
+    "drive": "Part-time 4-Wheel Drive",
+    "fuel_type": "Regular Gasoline",
+    "atv_type": null,
+    "is_hybrid": false,
+    "mpg_city": 13,
+    "mpg_highway": 17,
+    "mpg_combined": 14,
+    "mpg_city_alt": 0,
+    "mpg_highway_alt": 0,
+    "mpg_combined_alt": 0,
+    "annual_fuel_cost": 4300,
+    "source_url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=44359"
+  }
+]
