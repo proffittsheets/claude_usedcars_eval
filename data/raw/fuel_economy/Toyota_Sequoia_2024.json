@@ -1,0 +1,40 @@
+[
+  {
+    "vehicle_id": "47173",
+    "year": 2024,
+    "make": "Toyota",
+    "model": "Sequoia 2WD",
+    "trany": "Automatic (S10)",
+    "drive": "Rear-Wheel Drive",
+    "fuel_type": "Regular Gasoline",
+    "atv_type": "Hybrid",
+    "is_hybrid": true,
+    "mpg_city": 21,
+    "mpg_highway": 24,
+    "mpg_combined": 22,
+    "mpg_city_alt": 0,
+    "mpg_highway_alt": 0,
+    "mpg_combined_alt": 0,
+    "annual_fuel_cost": 2700,
+    "source_url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47173"
+  },
+  {
+    "vehicle_id": "47212",
+    "year": 2024,
+    "make": "Toyota",
+    "model": "Sequoia 4WD",
+    "trany": "Automatic (S10)",
+    "drive": "Part-time 4-Wheel Drive",
+    "fuel_type": "Regular Gasoline",
+    "atv_type": "Hybrid",
+    "is_hybrid": true,
+    "mpg_city": 19,
+    "mpg_highway": 22,
+    "mpg_combined": 20,
+    "mpg_city_alt": 0,
+    "mpg_highway_alt": 0,
+    "mpg_combined_alt": 0,
+    "annual_fuel_cost": 3000,
+    "source_url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47212"
+  }
+]

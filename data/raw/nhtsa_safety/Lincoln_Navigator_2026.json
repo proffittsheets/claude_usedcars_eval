@@ -1,0 +1,13 @@
+[
+  {
+    "vehicle_id": 21450,
+    "description": "2026 LINCOLN NAVIGATOR SUV N/A 4WD",
+    "overall": 5,
+    "front_crash": 5,
+    "side_crash": 5,
+    "rollover": 3,
+    "forward_collision_warning": "No",
+    "lane_departure_warning": "No",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/21450"
+  }
+]

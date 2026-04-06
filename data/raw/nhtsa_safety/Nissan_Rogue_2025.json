@@ -1,0 +1,24 @@
+[
+  {
+    "vehicle_id": 20758,
+    "description": "2025 Nissan Rogue SUV AWD",
+    "overall": 5,
+    "front_crash": 4,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/20758"
+  },
+  {
+    "vehicle_id": 20757,
+    "description": "2025 Nissan Rogue SUV FWD",
+    "overall": 5,
+    "front_crash": 4,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/20757"
+  }
+]

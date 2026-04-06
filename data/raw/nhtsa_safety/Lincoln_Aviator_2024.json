@@ -1,0 +1,24 @@
+[
+  {
+    "vehicle_id": 19171,
+    "description": "2024 Lincoln Aviator SUV 4WD",
+    "overall": 5,
+    "front_crash": 5,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard & Optional",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/19171"
+  },
+  {
+    "vehicle_id": 19170,
+    "description": "2024 Lincoln Aviator SUV RWD",
+    "overall": 5,
+    "front_crash": 5,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard & Optional",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/19170"
+  }
+]

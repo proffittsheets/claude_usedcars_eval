@@ -1,24 +1,20 @@
 """
-Scrape car images from manufacturer websites for all target models.
-
-Each brand has a custom scraper strategy since sites differ.
-Images are saved to data/raw/images/manufacturer/{make}/{model}/{year}/
-and recorded in manifest.json.
+Scrape car images from manufacturer and editorial sources.
 
 Strategies per brand:
-  - Toyota:       Media gallery og:image tags on model pages
-  - Nissan:       Model page image tags with structured JSON-LD
-  - Mercedes-Benz: Media images from model overview pages
-  - Lincoln:      Model page gallery images
+  - Toyota:       Toyota Pressroom (pressroom.toyota.com) — year-specific S3 press images
+  - Nissan:       Motor Trend editorial pages — year-specific Hearst CDN images
+  - Mercedes-Benz: Motor Trend editorial pages — year-specific Hearst CDN images
+  - Lincoln:      Motor Trend editorial pages — year-specific Hearst CDN images
 
-All strategies use BeautifulSoup to parse HTML.
+Images are saved to data/raw/images/manufacturer/{make}/{model}/{year}/
+and recorded in manifest.json.
 """
-import json
 import re
 import time
 from pathlib import Path
-from typing import List, Optional
-from urllib.parse import urljoin, urlparse
+from typing import List, Optional, Tuple
+from urllib.parse import urlparse
 
 from bs4 import BeautifulSoup
 
@@ -35,7 +31,7 @@ logger = get_logger(__name__)
 MANUFACTURER_OUT_DIR = IMAGES_DIR / "manufacturer"
 MANIFEST_PATH = IMAGES_DIR / "manifest.json"
 
-MAX_IMAGES_PER_MODEL = 6
+MAX_IMAGES_PER_MODEL = 15
 
 HEADERS = {
     "User-Agent": (
@@ -47,179 +43,185 @@ HEADERS = {
     "Accept-Language": "en-US,en;q=0.5",
 }
 
-# Model-to-URL-slug mappings per brand
-MODEL_URL_SLUGS = {
-    "Toyota": {
-        "RAV4": "rav4",
-        "Highlander": "highlander",
-        "Sienna": "sienna",
-        "Venza": "venza",
-        "4Runner": "4runner",
-        "Sequoia": "sequoia",
-        "Camry": "camry",
-    },
+# Toyota Pressroom URL slugs — year-specific pages exist for all except Venza 2025/2026
+TOYOTA_PRESSROOM_SLUGS = {
+    "RAV4": "rav4",
+    "Highlander": "highlander",
+    "Sienna": "sienna",
+    "Venza": "venza",
+    "4Runner": "4runner",
+    "Sequoia": "sequoia",
+    "Camry": "camry",
+}
+
+# Toyota Pressroom 404s for these model/year combos — leave to Wikimedia fallback
+TOYOTA_PRESSROOM_SKIP = {
+    ("Venza", 2025),
+    ("Venza", 2026),
+}
+
+# Motor Trend brand/model slugs for motortrend.com/cars/{brand}/{model}/{year}
+MOTOR_TREND_SLUGS = {
     "Nissan": {
-        # SUVs use /vehicles/crossovers-suvs/, Altima uses /vehicles/cars/
-        "Pathfinder": ("crossovers-suvs", "pathfinder"),
-        "Murano": ("crossovers-suvs", "murano"),
-        "Armada": ("crossovers-suvs", "armada"),
-        "Rogue": ("crossovers-suvs", "rogue"),
-        "Altima": ("cars", "altima"),
+        "brand": "nissan",
+        "models": {
+            "Pathfinder": "pathfinder",
+            "Murano": "murano",
+            "Armada": "armada",
+            "Rogue": "rogue",
+            "Altima": "altima",
+        },
     },
     "Mercedes-Benz": {
-        # SUVs use /en/vehicles/build/{slug}/suv, C-Class uses /sedan
-        "GLC": ("glc", "suv"),
-        "GLE": ("gle", "suv"),
-        "GLS": ("gls", "suv"),
-        "C-Class": ("c-class", "sedan"),
+        "brand": "mercedes-benz",
+        "models": {
+            "GLC": "glc-class",
+            "GLE": "gle-class",
+            "GLS": "gls",
+            "C-Class": "c-class",
+        },
     },
     "Lincoln": {
-        "Corsair": "corsair",
-        "Nautilus": "nautilus",
-        "Aviator": "aviator",
-        "Navigator": "navigator",
+        "brand": "lincoln",
+        "models": {
+            "Corsair": "corsair",
+            "Nautilus": "nautilus",
+            "Aviator": "aviator",
+            "Navigator": "navigator",
+        },
     },
 }
 
-BRAND_BASE_URLS = {
-    "Toyota": "https://www.toyota.com",
-    "Nissan": "https://www.nissanusa.com",
-    "Mercedes-Benz": "https://www.mbusa.com",
-    "Lincoln": "https://www.lincoln.com",
-}
+# Regex to detect and measure size suffixes like -1500x900 in image filenames
+_SIZE_RE = re.compile(r"-(\d+)x(\d+)(?=\.\w{2,5}$)", re.IGNORECASE)
 
 
-def get_model_url(make: str, model: str) -> Optional[str]:
-    """Return the manufacturer page URL for a make/model."""
-    slug = MODEL_URL_SLUGS.get(make, {}).get(model)
-    if not slug:
-        return None
-    base = BRAND_BASE_URLS.get(make, "")
-    if make == "Toyota":
-        return f"{base}/{slug}/"
-    elif make == "Nissan":
-        category, name = slug
-        return f"{base}/vehicles/{category}/{name}.html"
-    elif make == "Mercedes-Benz":
-        model_slug, body_type = slug
-        return f"{base}/en/vehicles/build/{model_slug}/{body_type}"
-    elif make == "Lincoln":
-        return f"{base}/vehicles/{slug}/"
-    return None
+def _image_base_key(url: str) -> str:
+    """Return a dedup key by stripping size suffix from the URL stem."""
+    path = urlparse(url).path
+    cleaned = _SIZE_RE.sub("", path)
+    return Path(cleaned).stem
 
 
-def fetch_page(url: str) -> Optional[BeautifulSoup]:
-    """Fetch a page and return parsed BeautifulSoup, or None on failure."""
+def _image_area(url: str) -> int:
+    """Return pixel area from a size suffix, or 0 if none."""
+    m = _SIZE_RE.search(url)
+    return int(m.group(1)) * int(m.group(2)) if m else 0
+
+
+def scrape_toyota_pressroom(model_slug: str, year: int) -> List[str]:
+    """
+    Scrape year-specific press images from Toyota Pressroom.
+    Returns deduplicated S3 image URLs, largest size per unique image.
+    """
+    url = f"https://pressroom.toyota.com/vehicle/{year}-toyota-{model_slug}/"
+    logger.info("Scraping Toyota Pressroom: %s", url)
+
     try:
         response = get_with_retry(url, headers=HEADERS)
-        return BeautifulSoup(response.text, "html.parser")
+        soup = BeautifulSoup(response.text, "html.parser")
     except Exception as exc:
-        logger.warning("Failed to fetch %s: %s", url, exc)
-        return None
+        logger.warning("Failed to fetch Toyota Pressroom %s: %s", url, exc)
+        return []
 
+    s3_prefix = "toyota-cms-media.s3.amazonaws.com"
+    # best[base_key] = (area, url)
+    best: dict = {}
 
-def extract_og_images(soup: BeautifulSoup, base_url: str) -> List[str]:
-    """Extract og:image and twitter:image meta tags."""
-    urls = []
-    for meta in soup.find_all("meta", property=re.compile(r"^og:image|^twitter:image")):
-        content = meta.get("content", "")
-        if content and content.startswith("http"):
-            urls.append(content)
-    return urls
-
-
-def extract_json_ld_images(soup: BeautifulSoup) -> List[str]:
-    """Extract image URLs from JSON-LD structured data."""
-    urls = []
-    for script in soup.find_all("script", type="application/ld+json"):
-        try:
-            data = json.loads(script.string or "")
-            if isinstance(data, list):
-                items = data
-            else:
-                items = [data]
-            for item in items:
-                img = item.get("image")
-                if isinstance(img, str) and img.startswith("http"):
-                    urls.append(img)
-                elif isinstance(img, list):
-                    urls.extend(i for i in img if isinstance(i, str) and i.startswith("http"))
-        except (json.JSONDecodeError, AttributeError):
-            continue
-    return urls
-
-
-def extract_gallery_images(soup: BeautifulSoup, base_url: str) -> List[str]:
-    """Extract large images from img tags likely to be gallery photos."""
-    urls = []
     for img in soup.find_all("img"):
-        src = img.get("src") or img.get("data-src") or img.get("data-lazy-src", "")
-        if not src:
-            continue
-        # Resolve relative URLs
-        if src.startswith("//"):
-            src = "https:" + src
-        elif src.startswith("/"):
-            parsed = urlparse(base_url)
-            src = f"{parsed.scheme}://{parsed.netloc}{src}"
-        elif not src.startswith("http"):
-            continue
-        # Filter: skip icons, logos, small images
-        skip = ["logo", "icon", "sprite", "badge", "social", "favicon", "placeholder"]
-        if any(term in src.lower() for term in skip):
-            continue
-        # Skip data URIs and SVGs
-        if src.startswith("data:") or src.endswith(".svg"):
-            continue
-        # Prefer large images (check width/height attrs)
-        width = img.get("width", "0")
-        try:
-            w = int(str(width).replace("px", ""))
-            if w > 0 and w < 300:
-                continue
-        except ValueError:
-            pass
-        if src not in urls:
-            urls.append(src)
-    return urls
+        for attr in ("src", "data-src", "data-lazy-src"):
+            src = img.get(attr, "")
+            if s3_prefix in src:
+                key = _image_base_key(src)
+                area = _image_area(src)
+                if key not in best or area > best[key][0]:
+                    best[key] = (area, src)
+
+        srcset = img.get("srcset", "")
+        for part in srcset.split(","):
+            src = part.strip().split()[0] if part.strip() else ""
+            if s3_prefix in src:
+                key = _image_base_key(src)
+                area = _image_area(src)
+                if key not in best or area > best[key][0]:
+                    best[key] = (area, src)
+
+    results = [url for _, url in best.values()]
+    logger.info("Found %d unique Toyota Pressroom images for %s %d", len(results), model_slug, year)
+    return results[:MAX_IMAGES_PER_MODEL]
 
 
-def scrape_model_images(make: str, model: str) -> List[str]:
+def scrape_motor_trend(brand_slug: str, model_slug: str, year: int) -> List[str]:
     """
-    Scrape image URLs for a make/model from the manufacturer site.
-    Returns deduplicated list of image URLs (not year-specific since
-    manufacturer pages show current model year).
+    Scrape year-specific images from Motor Trend editorial pages.
+    Returns Hearst CDN (mtg-prod) image URLs.
     """
-    url = get_model_url(make, model)
-    if not url:
-        logger.warning("No URL configured for %s %s", make, model)
+    url = f"https://www.motortrend.com/cars/{brand_slug}/{model_slug}/{year}"
+    logger.info("Scraping Motor Trend: %s", url)
+
+    try:
+        response = get_with_retry(url, headers=HEADERS)
+        soup = BeautifulSoup(response.text, "html.parser")
+    except Exception as exc:
+        logger.warning("Failed to fetch Motor Trend page %s: %s", url, exc)
         return []
 
-    logger.info("Scraping %s %s from %s", make, model, url)
-    soup = fetch_page(url)
-    if not soup:
-        return []
+    cdn_prefix = "hips.hearstapps.com/mtg-prod/"
+    seen: set = set()
+    image_urls: List[str] = []
 
-    image_urls = []
-    image_urls.extend(extract_og_images(soup, url))
-    image_urls.extend(extract_json_ld_images(soup))
-    image_urls.extend(extract_gallery_images(soup, url))
+    def _collect(src: str):
+        src = src.strip()
+        if cdn_prefix in src and src not in seen:
+            seen.add(src)
+            image_urls.append(src)
 
-    # Deduplicate preserving order
-    seen = set()
-    deduped = []
-    for u in image_urls:
-        if u not in seen:
-            seen.add(u)
-            deduped.append(u)
+    for img in soup.find_all("img"):
+        for attr in ("src", "data-src", "data-lazy-src"):
+            _collect(img.get(attr, ""))
+        for part in img.get("srcset", "").split(","):
+            _collect(part.strip().split()[0] if part.strip() else "")
 
-    return deduped[:MAX_IMAGES_PER_MODEL]
+    for source in soup.find_all("source"):
+        for part in source.get("srcset", "").split(","):
+            _collect(part.strip().split()[0] if part.strip() else "")
+
+    logger.info("Found %d Motor Trend images for %s/%s %d", len(image_urls), brand_slug, model_slug, year)
+    return image_urls[:MAX_IMAGES_PER_MODEL]
 
 
-def download_image(url: str, dest_path: Path) -> bool:
+def scrape_model_images(make: str, model: str, year: int) -> Tuple[List[str], str]:
+    """
+    Dispatch to the correct scraper for a make/model/year.
+    Returns (image_urls, source_page_url).
+    An empty list means no images were found — Wikimedia fallback applies.
+    """
+    if make == "Toyota":
+        slug = TOYOTA_PRESSROOM_SLUGS.get(model)
+        if not slug:
+            logger.warning("No Toyota Pressroom slug for %s", model)
+            return [], ""
+        if (model, year) in TOYOTA_PRESSROOM_SKIP:
+            logger.info("Toyota %s %d: no Pressroom page — leaving to Wikimedia", model, year)
+            return [], ""
+        page_url = f"https://pressroom.toyota.com/vehicle/{year}-toyota-{slug}/"
+        return scrape_toyota_pressroom(slug, year), page_url
+
+    brand_config = MOTOR_TREND_SLUGS.get(make, {})
+    brand_slug = brand_config.get("brand", "")
+    model_slug = brand_config.get("models", {}).get(model, "")
+    if not brand_slug or not model_slug:
+        logger.warning("No Motor Trend slug configured for %s %s", make, model)
+        return [], ""
+    page_url = f"https://www.motortrend.com/cars/{brand_slug}/{model_slug}/{year}"
+    return scrape_motor_trend(brand_slug, model_slug, year), page_url
+
+
+def download_image(url: str, dest_path: Path, extra_headers: Optional[dict] = None) -> bool:
     """Download image to dest_path. Returns True on success."""
     try:
-        response = get_with_retry(url, headers=HEADERS, timeout=30)
+        headers = {**HEADERS, **(extra_headers or {})}
+        response = get_with_retry(url, headers=headers, timeout=30)
         content_type = response.headers.get("content-type", "")
         if "image" not in content_type and "octet-stream" not in content_type:
             logger.warning("Skipping non-image content-type '%s' for %s", content_type, url)
@@ -236,23 +238,37 @@ def download_image(url: str, dest_path: Path) -> bool:
 def load_manifest() -> dict:
     if MANIFEST_PATH.exists():
         with open(MANIFEST_PATH) as f:
+            import json
             return json.load(f)
     return {}
 
 
 def save_manifest(manifest: dict):
+    import json
     MANIFEST_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(MANIFEST_PATH, "w") as f:
         json.dump(manifest, f, indent=2)
 
 
+def _attribution_for(make: str) -> Tuple[str, str]:
+    """Return (attribution, license) strings for a make."""
+    if make == "Toyota":
+        return (
+            "Toyota Motor North America Pressroom",
+            "All rights reserved — Toyota Motor North America (personal research use)",
+        )
+    return (
+        "Motor Trend / Hearst Autos",
+        "All rights reserved — Hearst Autos (personal research use)",
+    )
+
+
 def fetch_for_model(make: str, model: str, year: int) -> List[dict]:
     """
-    Scrape and download manufacturer images for one make/model/year.
-    Since manufacturer pages show the current model year, we only fetch
-    once per make/model and tag all years. Returns manifest entries.
+    Scrape and download manufacturer/editorial images for one make/model/year.
+    Returns manifest entries for successfully downloaded images.
     """
-    image_urls = scrape_model_images(make, model)
+    image_urls, page_url = scrape_model_images(make, model, year)
     if not image_urls:
         return []
 
@@ -262,8 +278,12 @@ def fetch_for_model(make: str, model: str, year: int) -> List[dict]:
         / model.replace(" ", "_")
         / str(year)
     )
+    attribution, license_text = _attribution_for(make)
+    # Toyota S3 images require a Referer header matching the pressroom domain
+    download_extra_headers = (
+        {"Referer": "https://pressroom.toyota.com/"} if make == "Toyota" else None
+    )
     manifest_entries = []
-    page_url = get_model_url(make, model) or BRAND_BASE_URLS.get(make, "")
 
     for idx, url in enumerate(image_urls):
         ext = Path(urlparse(url).path).suffix.lower() or ".jpg"
@@ -272,21 +292,21 @@ def fetch_for_model(make: str, model: str, year: int) -> List[dict]:
         filename = f"{idx + 1:02d}{ext}"
         dest = out_dir / filename
 
-        if download_image(url, dest):
+        if download_image(url, dest, extra_headers=download_extra_headers):
             entry = {
                 "local_path": str(dest.relative_to(IMAGES_DIR)),
                 "source": "manufacturer",
                 "source_url": page_url,
                 "original_url": url,
-                "license": "All rights reserved — manufacturer press image",
-                "attribution": make,
+                "license": license_text,
+                "attribution": attribution,
                 "make": make,
                 "model": model,
                 "year": year,
             }
             manifest_entries.append(entry)
             logger.info("Downloaded: %s", dest)
-        time.sleep(MANUFACTURER_DELAY)
+        time.sleep(0.5)  # Short delay between image downloads (CDN, not rate-limited)
 
     return manifest_entries
 
@@ -298,12 +318,21 @@ def run():
 
     for make, models in TARGET_MODELS.items():
         for model in models:
-            # Only fetch the most recent year — manufacturer pages show current model
-            year = max(MODEL_YEARS)
-            entries = fetch_for_model(make, model, year)
-            manifest["manufacturer"].extend(entries)
-            save_manifest(manifest)
-            time.sleep(MANUFACTURER_DELAY)
+            for year in MODEL_YEARS:
+                out_dir = (
+                    MANUFACTURER_OUT_DIR
+                    / make.replace(" ", "_")
+                    / model.replace(" ", "_")
+                    / str(year)
+                )
+                img_exts = {".jpg", ".jpeg", ".png", ".webp"}
+                if out_dir.exists() and any(f.suffix.lower() in img_exts for f in out_dir.iterdir()):
+                    logger.info("Skipping %s %s %d (images already on disk)", make, model, year)
+                    continue
+                entries = fetch_for_model(make, model, year)
+                manifest["manufacturer"].extend(entries)
+                save_manifest(manifest)
+                time.sleep(MANUFACTURER_DELAY)
 
     logger.info("Manufacturer image scrape complete")
 

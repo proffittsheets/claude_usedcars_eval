@@ -1,0 +1,24 @@
+[
+  {
+    "vehicle_id": 21064,
+    "description": "2026 NISSAN ALTIMA 4 DR N/A AWD",
+    "overall": 5,
+    "front_crash": 4,
+    "side_crash": 5,
+    "rollover": 5,
+    "forward_collision_warning": "No",
+    "lane_departure_warning": "No",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/21064"
+  },
+  {
+    "vehicle_id": 21063,
+    "description": "2026 NISSAN ALTIMA 4 DR N/A FWD",
+    "overall": 5,
+    "front_crash": 4,
+    "side_crash": 5,
+    "rollover": 5,
+    "forward_collision_warning": "No",
+    "lane_departure_warning": "No",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/21063"
+  }
+]

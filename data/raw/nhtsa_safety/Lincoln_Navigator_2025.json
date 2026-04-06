@@ -1,0 +1,13 @@
+[
+  {
+    "vehicle_id": 20365,
+    "description": "2025 Lincoln Navigator SUV 4WD",
+    "overall": 5,
+    "front_crash": 5,
+    "side_crash": 5,
+    "rollover": 3,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/20365"
+  }
+]

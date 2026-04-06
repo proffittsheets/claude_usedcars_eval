@@ -1,0 +1,24 @@
+[
+  {
+    "vehicle_id": 22014,
+    "description": "2026 MERCEDES-BENZ GLE SUV N/A AWD",
+    "overall": null,
+    "front_crash": null,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "No",
+    "lane_departure_warning": "No",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/22014"
+  },
+  {
+    "vehicle_id": 22013,
+    "description": "2026 MERCEDES-BENZ GLE SUV N/A RWD",
+    "overall": null,
+    "front_crash": null,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "No",
+    "lane_departure_warning": "No",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/22013"
+  }
+]

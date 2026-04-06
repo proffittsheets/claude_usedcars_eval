@@ -1,0 +1,24 @@
+[
+  {
+    "vehicle_id": 21066,
+    "description": "2026 NISSAN PATHFINDER SUV N/A AWD",
+    "overall": 5,
+    "front_crash": 4,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "No",
+    "lane_departure_warning": "No",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/21066"
+  },
+  {
+    "vehicle_id": 21065,
+    "description": "2026 NISSAN PATHFINDER SUV N/A FWD",
+    "overall": 5,
+    "front_crash": 4,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "No",
+    "lane_departure_warning": "No",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/21065"
+  }
+]

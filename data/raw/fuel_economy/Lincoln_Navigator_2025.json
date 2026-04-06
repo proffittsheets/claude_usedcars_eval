@@ -1,0 +1,21 @@
+[
+  {
+    "vehicle_id": "48967",
+    "year": 2025,
+    "make": "Lincoln",
+    "model": "Navigator 4WD",
+    "trany": "Automatic (S10)",
+    "drive": "Part-time 4-Wheel Drive",
+    "fuel_type": "Regular Gasoline",
+    "atv_type": null,
+    "is_hybrid": false,
+    "mpg_city": 15,
+    "mpg_highway": 22,
+    "mpg_combined": 17,
+    "mpg_city_alt": 0,
+    "mpg_highway_alt": 0,
+    "mpg_combined_alt": 0,
+    "annual_fuel_cost": 3500,
+    "source_url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48967"
+  }
+]

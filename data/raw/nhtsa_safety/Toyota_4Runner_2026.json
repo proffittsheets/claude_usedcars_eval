@@ -1,0 +1,35 @@
+[
+  {
+    "vehicle_id": 21655,
+    "description": "2026 TOYOTA 4RUNNER SUV N/A AWD",
+    "overall": 4,
+    "front_crash": 4,
+    "side_crash": 5,
+    "rollover": 3,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/21655"
+  },
+  {
+    "vehicle_id": 21654,
+    "description": "2026 TOYOTA 4RUNNER SUV N/A 4WD",
+    "overall": 4,
+    "front_crash": 4,
+    "side_crash": 5,
+    "rollover": 3,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/21654"
+  },
+  {
+    "vehicle_id": 21653,
+    "description": "2026 TOYOTA 4RUNNER SUV N/A RWD",
+    "overall": 4,
+    "front_crash": 4,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/21653"
+  }
+]

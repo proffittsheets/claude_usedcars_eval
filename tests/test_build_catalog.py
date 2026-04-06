@@ -91,7 +91,7 @@ def test_get_images_prefers_manufacturer():
         "wikimedia": [{"make": "Toyota", "model": "Sienna", "year": 2024, "local_path": "wikimedia/img.jpg"}],
     }
     result = get_images_for_model("Toyota", "Sienna", 2024, manifest)
-    assert result["exterior"] == ["manufacturer/img.jpg"]
+    assert result["exterior"] == ["data/raw/images/manufacturer/img.jpg"]
 
 def test_get_images_falls_back_to_wikimedia():
     manifest = {
@@ -99,7 +99,7 @@ def test_get_images_falls_back_to_wikimedia():
         "wikimedia": [{"make": "Toyota", "model": "Sienna", "year": 2024, "local_path": "wikimedia/img.jpg"}],
     }
     result = get_images_for_model("Toyota", "Sienna", 2024, manifest)
-    assert result["exterior"] == ["wikimedia/img.jpg"]
+    assert result["exterior"] == ["data/raw/images/wikimedia/img.jpg"]
 
 def test_get_images_returns_empty_when_none():
     result = get_images_for_model("Toyota", "Sienna", 2024, {})

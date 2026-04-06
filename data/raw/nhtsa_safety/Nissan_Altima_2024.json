@@ -1,0 +1,24 @@
+[
+  {
+    "vehicle_id": 19561,
+    "description": "2024 Nissan Altima 4 DR AWD",
+    "overall": 5,
+    "front_crash": 4,
+    "side_crash": 5,
+    "rollover": 5,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/19561"
+  },
+  {
+    "vehicle_id": 19560,
+    "description": "2024 Nissan Altima 4 DR FWD",
+    "overall": 5,
+    "front_crash": 4,
+    "side_crash": 5,
+    "rollover": 5,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/19560"
+  }
+]

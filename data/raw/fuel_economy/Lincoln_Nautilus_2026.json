@@ -1,0 +1,40 @@
+[
+  {
+    "vehicle_id": "49514",
+    "year": 2026,
+    "make": "Lincoln",
+    "model": "Nautilus AWD",
+    "trany": "Automatic 8-spd",
+    "drive": "All-Wheel Drive",
+    "fuel_type": "Regular Gasoline",
+    "atv_type": null,
+    "is_hybrid": false,
+    "mpg_city": 21,
+    "mpg_highway": 29,
+    "mpg_combined": 24,
+    "mpg_city_alt": 0,
+    "mpg_highway_alt": 0,
+    "mpg_combined_alt": 0,
+    "annual_fuel_cost": 2500,
+    "source_url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49514"
+  },
+  {
+    "vehicle_id": "49515",
+    "year": 2026,
+    "make": "Lincoln",
+    "model": "Nautilus HEV AWD",
+    "trany": "Automatic (variable gear ratios)",
+    "drive": "Part-time 4-Wheel Drive",
+    "fuel_type": "Regular Gasoline",
+    "atv_type": "Hybrid",
+    "is_hybrid": true,
+    "mpg_city": 29,
+    "mpg_highway": 31,
+    "mpg_combined": 30,
+    "mpg_city_alt": 0,
+    "mpg_highway_alt": 0,
+    "mpg_combined_alt": 0,
+    "annual_fuel_cost": 2000,
+    "source_url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49515"
+  }
+]

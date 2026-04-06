@@ -1,0 +1,24 @@
+[
+  {
+    "vehicle_id": 22001,
+    "description": "2026 MERCEDES-BENZ C-CLASS 4 DR N/A RWD",
+    "overall": null,
+    "front_crash": null,
+    "side_crash": null,
+    "rollover": null,
+    "forward_collision_warning": "No",
+    "lane_departure_warning": "No",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/22001"
+  },
+  {
+    "vehicle_id": 22000,
+    "description": "2026 MERCEDES-BENZ C-CLASS 4 DR N/A AWD",
+    "overall": null,
+    "front_crash": null,
+    "side_crash": null,
+    "rollover": null,
+    "forward_collision_warning": "No",
+    "lane_departure_warning": "No",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/22000"
+  }
+]

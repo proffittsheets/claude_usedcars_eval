@@ -1,0 +1,24 @@
+[
+  {
+    "vehicle_id": 22009,
+    "description": "2026 MERCEDES-BENZ GLC SUV N/A AWD",
+    "overall": null,
+    "front_crash": null,
+    "side_crash": null,
+    "rollover": null,
+    "forward_collision_warning": "No",
+    "lane_departure_warning": "No",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/22009"
+  },
+  {
+    "vehicle_id": 22008,
+    "description": "2026 MERCEDES-BENZ GLC SUV N/A RWD",
+    "overall": null,
+    "front_crash": null,
+    "side_crash": null,
+    "rollover": null,
+    "forward_collision_warning": "No",
+    "lane_departure_warning": "No",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/22008"
+  }
+]
