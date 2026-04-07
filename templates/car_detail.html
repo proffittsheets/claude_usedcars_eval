@@ -11,6 +11,24 @@
   <span>{{ car.year }} {{ car.model }}</span>
 </nav>
 
+{% if car.images.exterior %}
+<div class="detail-hero">
+  <img
+    src="../{{ car.images.exterior[0] }}"
+    alt="{{ car.year }} {{ car.make }} {{ car.model }}"
+    class="detail-hero-img"
+    onerror="this.closest('.detail-hero').style.display='none'">
+  <div class="detail-hero-overlay">
+    <h1>{{ car.year }} {{ car.make }} {{ car.model }}</h1>
+    {% if car.body_type %}<p class="detail-body-type">{{ car.body_type }}</p>{% endif %}
+    <div class="detail-badges">
+      {% if car.is_hybrid %}<span class="badge badge-hybrid">Hybrid</span>{% endif %}
+      <span class="badge badge-tier badge-tier-{{ car.price_tier }}">{{ car.price_tier | title }} — ${{ "{:,.0f}".format(car.msrp_usd) }}</span>
+      <span class="badge badge-awd">AWD Available</span>
+    </div>
+  </div>
+</div>
+{% else %}
 <div class="detail-header">
   <div class="detail-title-block">
     <h1>{{ car.year }} {{ car.make }} {{ car.model }}</h1>
@@ -22,6 +40,7 @@
     </div>
   </div>
 </div>
+{% endif %}
 
 {# Image Gallery #}
 {% if car.images.exterior or car.images.interior %}
@@ -30,6 +49,7 @@
     <h2 class="gallery-heading">Exterior</h2>
     <div class="gallery-scroll" data-gallery="exterior-{{ car.id }}">
       {% for img_path in car.images.exterior %}
+        {% if not (loop.first and car.images.exterior) %}
         <img
           src="../{{ img_path }}"
           alt="{{ car.year }} {{ car.make }} {{ car.model }} exterior {{ loop.index }}"
@@ -37,6 +57,7 @@
           class="gallery-thumb"
           data-full="../{{ img_path }}"
           onerror="this.style.display='none'">
+        {% endif %}
       {% endfor %}
     </div>
   {% endif %}

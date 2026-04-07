@@ -25,6 +25,8 @@
     </div>
   </header>
 
+  {% block hero %}{% endblock %}
+
   <main class="site-main">
     {% block content %}{% endblock %}
   </main>
@@ -45,5 +47,6 @@
   <script src="{{ root }}static/js/gallery.js"></script>
   <script src="{{ root }}static/js/filters.js"></script>
   <script src="{{ root }}static/js/dropdown.js"></script>
+  <script src="{{ root }}static/js/carousel.js"></script>
 </body>
 </html>

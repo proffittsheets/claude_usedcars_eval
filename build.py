@@ -79,10 +79,19 @@ def run():
 
     brands = list(TARGET_MODELS.keys())
 
+    # Pick featured cars for carousel: 2 per brand with images, prefer manufacturer images
+    featured = []
+    for brand in brands:
+        brand_cars = [c for c in catalog if c["make"] == brand and c["images"]["exterior"]]
+        # Prefer cars with more images (better coverage), take up to 2 per brand
+        brand_cars.sort(key=lambda c: len(c["images"]["exterior"]), reverse=True)
+        featured.extend(brand_cars[:2])
+
     # Homepage
     render(env, "index.html", SITE_DIR / "index.html", {
         "cars": catalog,
         "brands": brands,
+        "featured": featured,
         "root": "",
     })
 

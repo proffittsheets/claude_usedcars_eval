@@ -167,14 +167,28 @@ def scrape_motor_trend(brand_slug: str, model_slug: str, year: int) -> List[str]
         return []
 
     cdn_prefix = "hips.hearstapps.com/mtg-prod/"
-    seen: set = set()
-    image_urls: List[str] = []
+    # best[path] = (width, full_url) — dedup by base path, keep largest width
+    best: dict = {}
+
+    def _width(url: str) -> int:
+        from urllib.parse import parse_qs, urlparse as _up
+        qs = parse_qs(_up(url).query)
+        for key in ("w", "width"):
+            if key in qs:
+                try:
+                    return int(qs[key][0])
+                except (ValueError, IndexError):
+                    pass
+        return 0
 
     def _collect(src: str):
         src = src.strip()
-        if cdn_prefix in src and src not in seen:
-            seen.add(src)
-            image_urls.append(src)
+        if cdn_prefix not in src:
+            return
+        base = src.split("?")[0]
+        w = _width(src)
+        if base not in best or w > best[base][0]:
+            best[base] = (w, src)
 
     for img in soup.find_all("img"):
         for attr in ("src", "data-src", "data-lazy-src"):
@@ -186,6 +200,7 @@ def scrape_motor_trend(brand_slug: str, model_slug: str, year: int) -> List[str]
         for part in source.get("srcset", "").split(","):
             _collect(part.strip().split()[0] if part.strip() else "")
 
+    image_urls = [url for _, url in best.values()]
     logger.info("Found %d Motor Trend images for %s/%s %d", len(image_urls), brand_slug, model_slug, year)
     return image_urls[:MAX_IMAGES_PER_MODEL]
 

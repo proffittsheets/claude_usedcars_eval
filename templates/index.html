@@ -3,6 +3,43 @@
 
 {% block title %}All Cars{% endblock %}
 
+{% block hero %}
+{% if featured %}
+<div class="carousel" id="featured-carousel" aria-label="Featured vehicles">
+  <div class="carousel-track" id="carousel-track">
+    {% for car in featured %}
+    <a class="carousel-slide" href="cars/{{ car.id }}.html"
+       data-index="{{ loop.index0 }}"
+       aria-label="{{ car.year }} {{ car.make }} {{ car.model }}">
+      <img
+        src="{{ car.images.exterior[0] }}"
+        alt="{{ car.year }} {{ car.make }} {{ car.model }}"
+        class="carousel-img"
+        draggable="false"
+        onerror="this.closest('.carousel-slide').style.display='none'">
+      <div class="carousel-caption">
+        <span class="carousel-make">{{ car.make }}</span>
+        <h2 class="carousel-title">{{ car.year }} {{ car.model }}</h2>
+        <span class="carousel-price">${{ "{:,.0f}".format(car.msrp_usd) }}</span>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+
+  <button class="carousel-btn carousel-prev" aria-label="Previous">&#x2039;</button>
+  <button class="carousel-btn carousel-next" aria-label="Next">&#x203a;</button>
+
+  <div class="carousel-dots" id="carousel-dots">
+    {% for car in featured %}
+      <button class="carousel-dot{% if loop.first %} carousel-dot-active{% endif %}"
+              data-index="{{ loop.index0 }}"
+              aria-label="Slide {{ loop.index }}"></button>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+{% endblock %}
+
 {% block content %}
 <div class="page-header">
   <h1>Car Vision Board</h1>
