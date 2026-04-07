@@ -114,6 +114,7 @@ def build_entry(
     colors: dict,
     details: dict,
     images: Dict[str, List[str]],
+    body_types: dict,
 ) -> Optional[dict]:
     """Build a single catalog entry. Returns None if entry should be excluded."""
 
@@ -143,8 +144,8 @@ def build_entry(
     if not seats and fe_record:
         pass  # fueleconomy.gov doesn't provide seats
 
-    # Body type
-    body_type = cq_trim.get("body_type") if cq_trim else None
+    # Body type — manual file takes precedence over CarQuery
+    body_type = body_types.get(make, {}).get(model) or (cq_trim.get("body_type") if cq_trim else None)
 
     # Safety
     safety: Dict[str, Any] = {
@@ -213,6 +214,7 @@ def run() -> List[dict]:
     iihs = load_manual("iihs_overrides.json")
     colors = load_manual("color_options.json")
     details = load_manual("details_overrides.json")
+    body_types = load_manual("body_types.json")
     manifest = load_json(MANIFEST_PATH) or {}
 
     catalog = []
@@ -247,7 +249,7 @@ def run() -> List[dict]:
                 entry = build_entry(
                     make, model, year,
                     fe_record, nhtsa_record, cq_trim,
-                    msrp_seed, iihs, colors, details, images,
+                    msrp_seed, iihs, colors, details, images, body_types,
                 )
                 if entry:
                     catalog.append(entry)

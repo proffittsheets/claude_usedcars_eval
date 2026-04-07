@@ -1,0 +1,30 @@
+{
+  "Toyota": {
+    "RAV4":       "SUV",
+    "Highlander": "SUV",
+    "Venza":      "SUV",
+    "4Runner":    "SUV",
+    "Sequoia":    "SUV",
+    "Sienna":     "Minivan",
+    "Camry":      "Sedan"
+  },
+  "Nissan": {
+    "Pathfinder": "SUV",
+    "Murano":     "SUV",
+    "Armada":     "SUV",
+    "Rogue":      "SUV",
+    "Altima":     "Sedan"
+  },
+  "Mercedes-Benz": {
+    "GLC":     "SUV",
+    "GLE":     "SUV",
+    "GLS":     "SUV",
+    "C-Class": "Sedan"
+  },
+  "Lincoln": {
+    "Corsair":   "SUV",
+    "Nautilus":  "SUV",
+    "Aviator":   "SUV",
+    "Navigator": "SUV"
+  }
+}
