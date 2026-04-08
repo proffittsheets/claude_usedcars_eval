@@ -1,0 +1,40 @@
+[
+  {
+    "vehicle_id": "49987",
+    "year": 2026,
+    "make": "Volkswagen",
+    "model": "ID.4",
+    "trany": "Automatic (A1)",
+    "drive": "Rear-Wheel Drive",
+    "fuel_type": "Electricity",
+    "atv_type": "EV",
+    "is_hybrid": true,
+    "mpg_city": 122,
+    "mpg_highway": 104,
+    "mpg_combined": 113,
+    "mpg_city_alt": 0,
+    "mpg_highway_alt": 0,
+    "mpg_combined_alt": 0,
+    "annual_fuel_cost": 650,
+    "source_url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49987"
+  },
+  {
+    "vehicle_id": "49988",
+    "year": 2026,
+    "make": "Volkswagen",
+    "model": "ID.4 AWD",
+    "trany": "Automatic (A1)",
+    "drive": "All-Wheel Drive",
+    "fuel_type": "Electricity",
+    "atv_type": "EV",
+    "is_hybrid": true,
+    "mpg_city": 108,
+    "mpg_highway": 96,
+    "mpg_combined": 102,
+    "mpg_city_alt": 0,
+    "mpg_highway_alt": 0,
+    "mpg_combined_alt": 0,
+    "annual_fuel_cost": 750,
+    "source_url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49988"
+  }
+]

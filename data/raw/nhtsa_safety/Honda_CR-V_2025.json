@@ -1,0 +1,24 @@
+[
+  {
+    "vehicle_id": 20064,
+    "description": "2025 Honda CR-V SUV FWD",
+    "overall": 5,
+    "front_crash": 4,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/20064"
+  },
+  {
+    "vehicle_id": 20063,
+    "description": "2025 Honda CR-V SUV AWD",
+    "overall": 5,
+    "front_crash": 4,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/20063"
+  }
+]

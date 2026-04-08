@@ -90,6 +90,23 @@ MOTOR_TREND_SLUGS = {
             "Navigator": "navigator",
         },
     },
+    "Honda": {
+        "brand": "honda",
+        "models": {
+            "Pilot": "pilot",
+            "CR-V": "cr-v",
+            "Passport": "passport",
+            "Odyssey": "odyssey",
+        },
+    },
+    "Volkswagen": {
+        "brand": "volkswagen",
+        "models": {
+            "Atlas": "atlas",
+            "Tiguan": "tiguan",
+            "ID.4": "id-4",
+        },
+    },
 }
 
 # Regex to detect and measure size suffixes like -1500x900 in image filenames
@@ -151,10 +168,32 @@ def scrape_toyota_pressroom(model_slug: str, year: int) -> List[str]:
     return results[:MAX_IMAGES_PER_MODEL]
 
 
+def _mt_model_keywords(model_slug: str) -> List[str]:
+    """Extract meaningful model-identifying keywords from a Motor Trend model slug."""
+    # Strip generic words that appear in many filenames
+    stopwords = {"class", "the", "and", "for"}
+    return [w for w in re.split(r"[-_]", model_slug) if len(w) >= 3 and w not in stopwords]
+
+
+def _mt_filename_matches_model(url: str, model_slug: str) -> bool:
+    """Return True if the URL filename contains a model-identifying keyword."""
+    from urllib.parse import urlparse as _up
+    filename = Path(_up(url).path).stem.lower()
+    for kw in _mt_model_keywords(model_slug):
+        if kw in filename:
+            return True
+    return False
+
+
+def _mt_filename_matches_year(url: str, year: int) -> bool:
+    from urllib.parse import urlparse as _up
+    return str(year) in Path(_up(url).path).stem.lower()
+
+
 def scrape_motor_trend(brand_slug: str, model_slug: str, year: int) -> List[str]:
     """
     Scrape year-specific images from Motor Trend editorial pages.
-    Returns Hearst CDN (mtg-prod) image URLs.
+    Returns Hearst CDN (mtg-prod) image URLs for the target vehicle only.
     """
     url = f"https://www.motortrend.com/cars/{brand_slug}/{model_slug}/{year}"
     logger.info("Scraping Motor Trend: %s", url)
@@ -181,14 +220,17 @@ def scrape_motor_trend(brand_slug: str, model_slug: str, year: int) -> List[str]
                     pass
         return 0
 
+    # Collect all candidate URLs, deduped by base path keeping largest width
+    all_best: dict = {}
+
     def _collect(src: str):
         src = src.strip()
         if cdn_prefix not in src:
             return
         base = src.split("?")[0]
         w = _width(src)
-        if base not in best or w > best[base][0]:
-            best[base] = (w, src)
+        if base not in all_best or w > all_best[base][0]:
+            all_best[base] = (w, src)
 
     for img in soup.find_all("img"):
         for attr in ("src", "data-src", "data-lazy-src"):
@@ -200,7 +242,20 @@ def scrape_motor_trend(brand_slug: str, model_slug: str, year: int) -> List[str]
         for part in source.get("srcset", "").split(","):
             _collect(part.strip().split()[0] if part.strip() else "")
 
-    image_urls = [url for _, url in best.values()]
+    all_urls = [u for _, u in all_best.values()]
+
+    # Pass 1: model-name match (most precise — filters out sidebar/related images)
+    model_matched = [u for u in all_urls if _mt_filename_matches_model(u, model_slug)]
+
+    # Pass 2: fall back to year match only if too few model matches
+    if len(model_matched) >= 3:
+        image_urls = model_matched
+    else:
+        year_matched = [u for u in all_urls if _mt_filename_matches_year(u, year)]
+        image_urls = model_matched + [u for u in year_matched if u not in model_matched]
+        if not image_urls:
+            image_urls = all_urls  # last resort: take everything
+
     logger.info("Found %d Motor Trend images for %s/%s %d", len(image_urls), brand_slug, model_slug, year)
     return image_urls[:MAX_IMAGES_PER_MODEL]
 

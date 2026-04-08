@@ -4,6 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% block title %}Car Vision Board{% endblock %} — Sheets Family</title>
+  <script>
+    (function(){var s=null;try{s=localStorage.getItem('theme');}catch(e){}
+    if(!s)s=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';
+    document.documentElement.setAttribute('data-theme',s);})();
+  </script>
   <link rel="stylesheet" href="{{ root }}static/css/main.css">
   <link rel="stylesheet" href="{{ root }}static/css/cards.css">
   <link rel="stylesheet" href="{{ root }}static/css/gallery.css">
@@ -21,6 +26,9 @@
         <a href="{{ root }}nissan.html">Nissan</a>
         <a href="{{ root }}mercedes-benz.html">Mercedes</a>
         <a href="{{ root }}lincoln.html">Lincoln</a>
+        <a href="{{ root }}honda.html">Honda</a>
+        <a href="{{ root }}volkswagen.html">VW</a>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
       </nav>
     </div>
   </header>
@@ -44,6 +52,7 @@
     <button id="lightbox-next" aria-label="Next image">&#x203a;</button>
   </div>
 
+  <script src="{{ root }}static/js/theme.js"></script>
   <script src="{{ root }}static/js/gallery.js"></script>
   <script src="{{ root }}static/js/filters.js"></script>
   <script src="{{ root }}static/js/dropdown.js"></script>

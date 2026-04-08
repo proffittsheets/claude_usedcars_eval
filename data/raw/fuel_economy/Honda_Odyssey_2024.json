@@ -1,0 +1,21 @@
+[
+  {
+    "vehicle_id": "46860",
+    "year": 2024,
+    "make": "Honda",
+    "model": "Odyssey",
+    "trany": "Automatic (S10)",
+    "drive": "Front-Wheel Drive",
+    "fuel_type": "Regular Gasoline",
+    "atv_type": null,
+    "is_hybrid": false,
+    "mpg_city": 19,
+    "mpg_highway": 28,
+    "mpg_combined": 22,
+    "mpg_city_alt": 0,
+    "mpg_highway_alt": 0,
+    "mpg_combined_alt": 0,
+    "annual_fuel_cost": 2700,
+    "source_url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46860"
+  }
+]

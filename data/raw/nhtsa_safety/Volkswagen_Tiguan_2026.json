@@ -1,0 +1,24 @@
+[
+  {
+    "vehicle_id": 21045,
+    "description": "2026 VOLKSWAGEN TIGUAN SUV N/A AWD",
+    "overall": 5,
+    "front_crash": 4,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/21045"
+  },
+  {
+    "vehicle_id": 21044,
+    "description": "2026 VOLKSWAGEN TIGUAN SUV N/A FWD",
+    "overall": 5,
+    "front_crash": 4,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/21044"
+  }
+]

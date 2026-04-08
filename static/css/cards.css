@@ -16,13 +16,14 @@
   border-radius: var(--radius-lg);
   overflow: hidden;
   box-shadow: var(--shadow-sm);
-  transition: box-shadow 0.2s, transform 0.2s;
+  transition: box-shadow 0.25s, transform 0.25s, border-color 0.25s;
   display: flex;
   flex-direction: column;
 }
 .car-card:hover {
-  box-shadow: var(--shadow-md);
-  transform: translateY(-2px);
+  box-shadow: var(--shadow-md), var(--shadow-glow);
+  transform: translateY(-3px);
+  border-color: var(--neon-violet);
 }
 .car-card.hidden { display: none; }
 
@@ -31,7 +32,7 @@
   position: relative;
   display: block;
   overflow: hidden;
-  background: #f0eeea;
+  background: linear-gradient(135deg, var(--color-accent-lt), var(--color-bg));
   aspect-ratio: 16/9;
 }
 .card-hero {

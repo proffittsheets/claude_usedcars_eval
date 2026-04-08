@@ -27,5 +27,16 @@
     "Nautilus":  ["Infinite Black", "Pristine White", "Ceramic Pearl", "Chroma Caviar", "Burgundy Velvet", "Iced Mocha", "Pristine White Metallic"],
     "Aviator":   ["Infinite Black", "Pristine White", "Ceramic Pearl", "Chroma Caviar", "Burgundy Velvet", "Iced Mocha", "Flight Blue"],
     "Navigator": ["Infinite Black", "Pristine White", "Ceramic Pearl", "Chroma Caviar", "Burgundy Velvet", "Iced Mocha", "Pristine White Metallic"]
+  },
+  "Honda": {
+    "Pilot":    ["Sonic Gray Pearl", "Lunar Silver Metallic", "Radiant Red Metallic II", "Platinum White Pearl", "Meteoroid Gray Metallic", "Aegean Blue Metallic"],
+    "CR-V":     ["Sonic Gray Pearl", "Lunar Silver Metallic", "Radiant Red Metallic II", "Platinum White Pearl", "Meteoroid Gray Metallic", "Aegean Blue Metallic", "Canyon River Blue Metallic"],
+    "Passport": ["Sonic Gray Pearl", "Lunar Silver Metallic", "Radiant Red Metallic II", "Platinum White Pearl", "Meteoroid Gray Metallic", "Sonic Gray Pearl"],
+    "Odyssey":  ["Sonic Gray Pearl", "Lunar Silver Metallic", "Radiant Red Metallic II", "Platinum White Pearl", "Meteoroid Gray Metallic"]
+  },
+  "Volkswagen": {
+    "Atlas":  ["Deep Black Pearl", "Pure White", "Platinum Gray Metallic", "Pyrite Silver Metallic", "Tourmaline Blue Metallic", "Candy White"],
+    "Tiguan": ["Deep Black Pearl", "Pure White", "Platinum Gray Metallic", "Pyrite Silver Metallic", "Tourmaline Blue Metallic", "Cornflower Blue"],
+    "ID.4":   ["Deep Black Pearl", "Pure White", "Platinum Gray Metallic", "Glacier White Metallic", "Dusk Blue Metallic", "Moonstone Gray Metallic", "Olive Yellow Metallic"]
   }
 }

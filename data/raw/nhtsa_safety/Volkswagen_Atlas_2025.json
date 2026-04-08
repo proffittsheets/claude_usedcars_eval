@@ -1,0 +1,24 @@
+[
+  {
+    "vehicle_id": 20368,
+    "description": "2025 Volkswagen Atlas SUV AWD",
+    "overall": 5,
+    "front_crash": 4,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/20368"
+  },
+  {
+    "vehicle_id": 20367,
+    "description": "2025 Volkswagen Atlas SUV FWD",
+    "overall": 5,
+    "front_crash": 4,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/20367"
+  }
+]

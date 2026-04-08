@@ -1,0 +1,40 @@
+[
+  {
+    "vehicle_id": "48983",
+    "year": 2026,
+    "make": "Honda",
+    "model": "Passport AWD",
+    "trany": "Automatic (S10)",
+    "drive": "All-Wheel Drive",
+    "fuel_type": "Regular Gasoline",
+    "atv_type": null,
+    "is_hybrid": false,
+    "mpg_city": 19,
+    "mpg_highway": 25,
+    "mpg_combined": 21,
+    "mpg_city_alt": 0,
+    "mpg_highway_alt": 0,
+    "mpg_combined_alt": 0,
+    "annual_fuel_cost": 2850,
+    "source_url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48983"
+  },
+  {
+    "vehicle_id": "48984",
+    "year": 2026,
+    "make": "Honda",
+    "model": "Passport AWD Trailsport",
+    "trany": "Automatic (S10)",
+    "drive": "All-Wheel Drive",
+    "fuel_type": "Regular Gasoline",
+    "atv_type": null,
+    "is_hybrid": false,
+    "mpg_city": 18,
+    "mpg_highway": 23,
+    "mpg_combined": 20,
+    "mpg_city_alt": 0,
+    "mpg_highway_alt": 0,
+    "mpg_combined_alt": 0,
+    "annual_fuel_cost": 3000,
+    "source_url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48984"
+  }
+]

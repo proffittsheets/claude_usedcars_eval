@@ -26,5 +26,16 @@
     "Nautilus":  "SUV",
     "Aviator":   "SUV",
     "Navigator": "SUV"
+  },
+  "Honda": {
+    "Pilot":    "SUV",
+    "CR-V":     "SUV",
+    "Passport": "SUV",
+    "Odyssey":  "Minivan"
+  },
+  "Volkswagen": {
+    "Atlas":  "SUV",
+    "Tiguan": "SUV",
+    "ID.4":   "SUV"
   }
 }

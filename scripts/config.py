@@ -16,6 +16,8 @@ TARGET_MODELS = {
     "Nissan": ["Pathfinder", "Murano", "Armada", "Rogue", "Altima"],
     "Mercedes-Benz": ["GLC", "GLE", "GLS", "C-Class"],
     "Lincoln": ["Corsair", "Nautilus", "Aviator", "Navigator"],
+    "Honda": ["Pilot", "CR-V", "Passport", "Odyssey"],
+    "Volkswagen": ["Atlas", "Tiguan", "ID.4"],
 }
 
 # fueleconomy.gov uses different model name prefixes for some models.

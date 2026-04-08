@@ -1,0 +1,24 @@
+[
+  {
+    "vehicle_id": 19103,
+    "description": "2024 Volkswagen Tiguan SUV AWD",
+    "overall": 4,
+    "front_crash": 4,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/19103"
+  },
+  {
+    "vehicle_id": 19102,
+    "description": "2024 Volkswagen Tiguan SUV FWD",
+    "overall": 4,
+    "front_crash": 4,
+    "side_crash": 5,
+    "rollover": 4,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/19102"
+  }
+]

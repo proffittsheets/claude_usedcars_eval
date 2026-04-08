@@ -29,5 +29,16 @@
     "Nautilus":  { "2024": "Top Safety Pick",  "2025": "Top Safety Pick",  "2026": null },
     "Aviator":   { "2024": null,               "2025": null,               "2026": null },
     "Navigator": { "2024": null,               "2025": null,               "2026": null }
+  },
+  "Honda": {
+    "Pilot":    { "2024": "Top Safety Pick+", "2025": "Top Safety Pick+", "2026": null },
+    "CR-V":     { "2024": "Top Safety Pick+", "2025": "Top Safety Pick+", "2026": null },
+    "Passport": { "2024": "Top Safety Pick",  "2025": "Top Safety Pick",  "2026": null },
+    "Odyssey":  { "2024": "Top Safety Pick+", "2025": "Top Safety Pick+", "2026": null }
+  },
+  "Volkswagen": {
+    "Atlas":  { "2024": "Top Safety Pick",  "2025": "Top Safety Pick",  "2026": null },
+    "Tiguan": { "2024": "Top Safety Pick+", "2025": "Top Safety Pick+", "2026": null },
+    "ID.4":   { "2024": "Top Safety Pick+", "2025": "Top Safety Pick+", "2026": null }
   }
 }

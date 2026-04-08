@@ -1,0 +1,13 @@
+[
+  {
+    "vehicle_id": 20884,
+    "description": "2026 HONDA PASSPORT SUV N/A AWD",
+    "overall": null,
+    "front_crash": 4,
+    "side_crash": null,
+    "rollover": 4,
+    "forward_collision_warning": "Standard",
+    "lane_departure_warning": "Standard",
+    "source_url": "https://api.nhtsa.gov/SafetyRatings/VehicleId/20884"
+  }
+]
