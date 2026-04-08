@@ -2,7 +2,7 @@
 
 A personal research website for comparing new and recent vehicles as part of a long-term car buying decision. Built as a static site generated from Python data pipelines.
 
-**View site:** open `site/index.html` in a browser after generation. 
+**View site:** open `site/index.html` in a browser after local generation. 
 TO DO: Will host after some local bug fixes.
 
 ---
