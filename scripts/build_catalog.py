@@ -70,15 +70,30 @@ def best_nhtsa(records: List[dict]) -> Optional[dict]:
 
 
 def best_fuel_economy(records: List[dict], prefer_awd: bool = True) -> Optional[dict]:
-    """Pick the fuel economy record, preferring AWD/4WD trims if available."""
+    """Pick the fuel economy record, preferring AWD/4WD trims if available.
+    Among AWD trims, hybrid variants (HEV/PHEV) are preferred over gas.
+    Matches both standard "All-Wheel Drive" and "Part-time 4-Wheel Drive" drive strings.
+    """
     if not records:
         return None
+
+    def _is_awd(r: dict) -> bool:
+        drive = (r.get("drive") or "").lower()
+        return any(kw in drive for kw in ("awd", "4wd", "4x4", "all-wheel", "4-wheel", "four-wheel", "part-time"))
+
+    def _is_hybrid_record(r: dict) -> bool:
+        if r.get("is_hybrid"):
+            return True
+        model_name = (r.get("model") or "").lower()
+        return any(kw in model_name for kw in ("phev", " hev", "hybrid", "electric"))
+
     if prefer_awd:
-        awd = [r for r in records if "awd" in (r.get("drive") or "").lower()
-               or "4wd" in (r.get("drive") or "").lower()
-               or "4x4" in (r.get("drive") or "").lower()
-               or "all" in (r.get("drive") or "").lower()]
+        awd = [r for r in records if _is_awd(r)]
         if awd:
+            # Prefer hybrid AWD trims so the hybrid badge and MPG are accurate
+            hybrid_awd = [r for r in awd if _is_hybrid_record(r)]
+            if hybrid_awd:
+                return hybrid_awd[0]
             return awd[0]
     return records[0]
 
@@ -175,7 +190,10 @@ def build_entry(
         "year": year,
         "body_type": body_type,
         "has_awd": True,  # invariant: all entries must have AWD
-        "is_hybrid": fe_record.get("is_hybrid", False) if fe_record else False,
+        "is_hybrid": (
+            fe_record.get("is_hybrid")
+            or any(kw in (fe_record.get("model") or "").lower() for kw in ("phev", " hev"))
+        ) if fe_record else False,
         "price_tier": get_price_tier(msrp),
         "msrp_usd": msrp,
         "msrp_estimated": msrp_estimated,

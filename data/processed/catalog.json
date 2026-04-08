@@ -6,14 +6,14 @@
     "year": 2024,
     "body_type": "SUV",
     "has_awd": true,
-    "is_hybrid": false,
+    "is_hybrid": true,
     "price_tier": "low",
     "msrp_usd": 30875,
     "msrp_estimated": false,
     "seats": null,
-    "mpg_city": 27,
-    "mpg_highway": 33,
-    "mpg_combined": 29,
+    "mpg_city": 41,
+    "mpg_highway": 38,
+    "mpg_combined": 39,
     "fuel_type": "Regular Gasoline",
     "color_options": [
       "Blueprint",
@@ -62,7 +62,7 @@
     },
     "source_urls": {
       "manufacturer": "https://www.toyota.com/rav4/",
-      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47387",
+      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47392",
       "nhtsa_safety": "https://api.nhtsa.gov/SafetyRatings/VehicleId/19443"
     }
   },
@@ -73,14 +73,14 @@
     "year": 2025,
     "body_type": "SUV",
     "has_awd": true,
-    "is_hybrid": false,
+    "is_hybrid": true,
     "price_tier": "low",
     "msrp_usd": 31400,
     "msrp_estimated": false,
     "seats": null,
-    "mpg_city": 27,
-    "mpg_highway": 33,
-    "mpg_combined": 29,
+    "mpg_city": 41,
+    "mpg_highway": 38,
+    "mpg_combined": 39,
     "fuel_type": "Regular Gasoline",
     "color_options": [
       "Blueprint",
@@ -121,7 +121,7 @@
     },
     "source_urls": {
       "manufacturer": "https://www.toyota.com/rav4/",
-      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48933",
+      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48937",
       "nhtsa_safety": "https://api.nhtsa.gov/SafetyRatings/VehicleId/20261"
     }
   },
@@ -199,14 +199,14 @@
     "year": 2024,
     "body_type": "SUV",
     "has_awd": true,
-    "is_hybrid": false,
+    "is_hybrid": true,
     "price_tier": "low",
     "msrp_usd": 39020,
     "msrp_estimated": false,
     "seats": null,
-    "mpg_city": 21,
-    "mpg_highway": 28,
-    "mpg_combined": 24,
+    "mpg_city": 35,
+    "mpg_highway": 35,
+    "mpg_combined": 35,
     "fuel_type": "Regular Gasoline",
     "color_options": [
       "Midnight Black Metallic",
@@ -254,7 +254,7 @@
     },
     "source_urls": {
       "manufacturer": "https://www.toyota.com/highlander/",
-      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47669",
+      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47691",
       "nhtsa_safety": "https://api.nhtsa.gov/SafetyRatings/VehicleId/19451"
     }
   },
@@ -265,14 +265,14 @@
     "year": 2025,
     "body_type": "SUV",
     "has_awd": true,
-    "is_hybrid": false,
+    "is_hybrid": true,
     "price_tier": "medium",
     "msrp_usd": 40000,
     "msrp_estimated": false,
     "seats": null,
-    "mpg_city": 21,
-    "mpg_highway": 28,
-    "mpg_combined": 24,
+    "mpg_city": 35,
+    "mpg_highway": 35,
+    "mpg_combined": 35,
     "fuel_type": "Regular Gasoline",
     "color_options": [
       "Midnight Black Metallic",
@@ -320,7 +320,7 @@
     },
     "source_urls": {
       "manufacturer": "https://www.toyota.com/highlander/",
-      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48940",
+      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48981",
       "nhtsa_safety": "https://api.nhtsa.gov/SafetyRatings/VehicleId/20270"
     }
   },
@@ -331,14 +331,14 @@
     "year": 2026,
     "body_type": "SUV",
     "has_awd": true,
-    "is_hybrid": false,
+    "is_hybrid": true,
     "price_tier": "medium",
     "msrp_usd": 41200,
     "msrp_estimated": true,
     "seats": null,
-    "mpg_city": 21,
-    "mpg_highway": 28,
-    "mpg_combined": 24,
+    "mpg_city": 35,
+    "mpg_highway": 35,
+    "mpg_combined": 35,
     "fuel_type": "Regular Gasoline",
     "color_options": [
       "Midnight Black Metallic",
@@ -385,7 +385,7 @@
     },
     "source_urls": {
       "manufacturer": "https://www.toyota.com/highlander/",
-      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50132",
+      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50181",
       "nhtsa_safety": "https://api.nhtsa.gov/SafetyRatings/VehicleId/21664"
     }
   },
@@ -814,7 +814,7 @@
     },
     "source_urls": {
       "manufacturer": "https://www.toyota.com/4runner/",
-      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47439",
+      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47438",
       "nhtsa_safety": "https://api.nhtsa.gov/SafetyRatings/VehicleId/19441"
     }
   },
@@ -825,14 +825,14 @@
     "year": 2025,
     "body_type": "SUV",
     "has_awd": true,
-    "is_hybrid": false,
+    "is_hybrid": true,
     "price_tier": "medium",
     "msrp_usd": 42500,
     "msrp_estimated": false,
     "seats": null,
-    "mpg_city": 20,
-    "mpg_highway": 26,
-    "mpg_combined": 22,
+    "mpg_city": 23,
+    "mpg_highway": 24,
+    "mpg_combined": 23,
     "fuel_type": "Regular Gasoline",
     "color_options": [
       "Midnight Black Metallic",
@@ -881,7 +881,7 @@
     },
     "source_urls": {
       "manufacturer": "https://www.toyota.com/4runner/",
-      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48951",
+      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49062",
       "nhtsa_safety": "https://api.nhtsa.gov/SafetyRatings/VehicleId/20832"
     }
   },
@@ -892,14 +892,14 @@
     "year": 2026,
     "body_type": "SUV",
     "has_awd": true,
-    "is_hybrid": false,
+    "is_hybrid": true,
     "price_tier": "medium",
     "msrp_usd": 43800,
     "msrp_estimated": true,
     "seats": null,
-    "mpg_city": 20,
-    "mpg_highway": 26,
-    "mpg_combined": 22,
+    "mpg_city": 23,
+    "mpg_highway": 24,
+    "mpg_combined": 23,
     "fuel_type": "Regular Gasoline",
     "color_options": [
       "Midnight Black Metallic",
@@ -948,7 +948,7 @@
     },
     "source_urls": {
       "manufacturer": "https://www.toyota.com/4runner/",
-      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50147",
+      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50178",
       "nhtsa_safety": "https://api.nhtsa.gov/SafetyRatings/VehicleId/21655"
     }
   },
@@ -964,9 +964,9 @@
     "msrp_usd": 62045,
     "msrp_estimated": false,
     "seats": null,
-    "mpg_city": 21,
-    "mpg_highway": 24,
-    "mpg_combined": 22,
+    "mpg_city": 19,
+    "mpg_highway": 22,
+    "mpg_combined": 20,
     "fuel_type": "Regular Gasoline",
     "color_options": [
       "Midnight Black Metallic",
@@ -1013,7 +1013,7 @@
     },
     "source_urls": {
       "manufacturer": "https://www.toyota.com/sequoia/",
-      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47173",
+      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47212",
       "nhtsa_safety": null
     }
   },
@@ -1029,9 +1029,9 @@
     "msrp_usd": 63400,
     "msrp_estimated": false,
     "seats": null,
-    "mpg_city": 21,
-    "mpg_highway": 24,
-    "mpg_combined": 22,
+    "mpg_city": 19,
+    "mpg_highway": 22,
+    "mpg_combined": 20,
     "fuel_type": "Regular Gasoline",
     "color_options": [
       "Midnight Black Metallic",
@@ -1078,7 +1078,7 @@
     },
     "source_urls": {
       "manufacturer": "https://www.toyota.com/sequoia/",
-      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48553",
+      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48575",
       "nhtsa_safety": null
     }
   },
@@ -1094,9 +1094,9 @@
     "msrp_usd": 65300,
     "msrp_estimated": true,
     "seats": null,
-    "mpg_city": 21,
-    "mpg_highway": 24,
-    "mpg_combined": 22,
+    "mpg_city": 19,
+    "mpg_highway": 22,
+    "mpg_combined": 20,
     "fuel_type": "Regular Gasoline",
     "color_options": [
       "Midnight Black Metallic",
@@ -1143,7 +1143,7 @@
     },
     "source_urls": {
       "manufacturer": "https://www.toyota.com/sequoia/",
-      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49558",
+      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49608",
       "nhtsa_safety": null
     }
   },
@@ -1360,7 +1360,7 @@
     "msrp_usd": 36035,
     "msrp_estimated": false,
     "seats": null,
-    "mpg_city": 20,
+    "mpg_city": 21,
     "mpg_highway": 27,
     "mpg_combined": 23,
     "fuel_type": "Regular Gasoline",
@@ -1403,7 +1403,7 @@
     },
     "source_urls": {
       "manufacturer": "https://www.nissanusa.com/vehicles/pathfinder/",
-      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47139",
+      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47156",
       "nhtsa_safety": "https://api.nhtsa.gov/SafetyRatings/VehicleId/19563"
     }
   },
@@ -1419,7 +1419,7 @@
     "msrp_usd": 37000,
     "msrp_estimated": false,
     "seats": null,
-    "mpg_city": 20,
+    "mpg_city": 21,
     "mpg_highway": 27,
     "mpg_combined": 23,
     "fuel_type": "Regular Gasoline",
@@ -1462,7 +1462,7 @@
     },
     "source_urls": {
       "manufacturer": "https://www.nissanusa.com/vehicles/pathfinder/",
-      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48606",
+      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48615",
       "nhtsa_safety": "https://api.nhtsa.gov/SafetyRatings/VehicleId/20746"
     }
   },
@@ -1479,7 +1479,7 @@
     "msrp_estimated": true,
     "seats": null,
     "mpg_city": 21,
-    "mpg_highway": 27,
+    "mpg_highway": 26,
     "mpg_combined": 23,
     "fuel_type": "Regular Gasoline",
     "color_options": [
@@ -1517,7 +1517,7 @@
     },
     "source_urls": {
       "manufacturer": "https://www.nissanusa.com/vehicles/pathfinder/",
-      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50146",
+      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50173",
       "nhtsa_safety": "https://api.nhtsa.gov/SafetyRatings/VehicleId/21066"
     }
   },
@@ -1711,9 +1711,9 @@
     "msrp_usd": 57050,
     "msrp_estimated": false,
     "seats": null,
-    "mpg_city": 14,
-    "mpg_highway": 19,
-    "mpg_combined": 16,
+    "mpg_city": 13,
+    "mpg_highway": 18,
+    "mpg_combined": 15,
     "fuel_type": "Premium Gasoline",
     "color_options": [
       "Gun Metallic",
@@ -1757,7 +1757,7 @@
     },
     "source_urls": {
       "manufacturer": "https://www.nissanusa.com/vehicles/armada/",
-      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47410",
+      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47437",
       "nhtsa_safety": "https://api.nhtsa.gov/SafetyRatings/VehicleId/19588"
     }
   },
@@ -1774,8 +1774,8 @@
     "msrp_estimated": false,
     "seats": null,
     "mpg_city": 16,
-    "mpg_highway": 20,
-    "mpg_combined": 18,
+    "mpg_highway": 19,
+    "mpg_combined": 17,
     "fuel_type": "Premium Gasoline",
     "color_options": [
       "Gun Metallic",
@@ -1819,7 +1819,7 @@
     },
     "source_urls": {
       "manufacturer": "https://www.nissanusa.com/vehicles/armada/",
-      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48947",
+      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48968",
       "nhtsa_safety": null
     }
   },
@@ -1836,8 +1836,8 @@
     "msrp_estimated": true,
     "seats": null,
     "mpg_city": 16,
-    "mpg_highway": 20,
-    "mpg_combined": 18,
+    "mpg_highway": 19,
+    "mpg_combined": 17,
     "fuel_type": "Premium Gasoline",
     "color_options": [
       "Gun Metallic",
@@ -1881,7 +1881,7 @@
     },
     "source_urls": {
       "manufacturer": "https://www.nissanusa.com/vehicles/armada/",
-      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49557",
+      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49602",
       "nhtsa_safety": null
     }
   },
@@ -3008,14 +3008,14 @@
     "year": 2025,
     "body_type": "SUV",
     "has_awd": true,
-    "is_hybrid": false,
+    "is_hybrid": true,
     "price_tier": "medium",
     "msrp_usd": 41000,
     "msrp_estimated": false,
     "seats": null,
-    "mpg_city": 21,
-    "mpg_highway": 28,
-    "mpg_combined": 24,
+    "mpg_city": 34,
+    "mpg_highway": 32,
+    "mpg_combined": 33,
     "fuel_type": "Regular Gasoline",
     "color_options": [
       "Infinite Black",
@@ -3051,7 +3051,7 @@
     },
     "source_urls": {
       "manufacturer": "https://www.lincoln.com/vehicles/corsair/",
-      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48611",
+      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48671",
       "nhtsa_safety": null
     }
   },
@@ -3062,14 +3062,14 @@
     "year": 2026,
     "body_type": "SUV",
     "has_awd": true,
-    "is_hybrid": false,
+    "is_hybrid": true,
     "price_tier": "medium",
     "msrp_usd": 42300,
     "msrp_estimated": true,
     "seats": null,
-    "mpg_city": 21,
-    "mpg_highway": 28,
-    "mpg_combined": 24,
+    "mpg_city": 34,
+    "mpg_highway": 32,
+    "mpg_combined": 33,
     "fuel_type": "Regular Gasoline",
     "color_options": [
       "Infinite Black",
@@ -3105,7 +3105,7 @@
     },
     "source_urls": {
       "manufacturer": "https://www.lincoln.com/vehicles/corsair/",
-      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49860",
+      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49768",
       "nhtsa_safety": null
     }
   },
@@ -3116,14 +3116,14 @@
     "year": 2024,
     "body_type": "SUV",
     "has_awd": true,
-    "is_hybrid": false,
+    "is_hybrid": true,
     "price_tier": "medium",
     "msrp_usd": 47630,
     "msrp_estimated": false,
     "seats": null,
-    "mpg_city": 21,
-    "mpg_highway": 29,
-    "mpg_combined": 24,
+    "mpg_city": 30,
+    "mpg_highway": 31,
+    "mpg_combined": 30,
     "fuel_type": "Regular Gasoline",
     "color_options": [
       "Infinite Black",
@@ -3166,7 +3166,7 @@
     },
     "source_urls": {
       "manufacturer": "https://www.lincoln.com/vehicles/nautilus/",
-      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47661",
+      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47662",
       "nhtsa_safety": null
     }
   },
@@ -3177,14 +3177,14 @@
     "year": 2025,
     "body_type": "SUV",
     "has_awd": true,
-    "is_hybrid": false,
+    "is_hybrid": true,
     "price_tier": "medium",
     "msrp_usd": 49500,
     "msrp_estimated": false,
     "seats": null,
-    "mpg_city": 21,
-    "mpg_highway": 29,
-    "mpg_combined": 24,
+    "mpg_city": 30,
+    "mpg_highway": 31,
+    "mpg_combined": 30,
     "fuel_type": "Regular Gasoline",
     "color_options": [
       "Infinite Black",
@@ -3227,7 +3227,7 @@
     },
     "source_urls": {
       "manufacturer": "https://www.lincoln.com/vehicles/nautilus/",
-      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48536",
+      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48535",
       "nhtsa_safety": "https://api.nhtsa.gov/SafetyRatings/VehicleId/20363"
     }
   },
@@ -3238,14 +3238,14 @@
     "year": 2026,
     "body_type": "SUV",
     "has_awd": true,
-    "is_hybrid": false,
+    "is_hybrid": true,
     "price_tier": "medium",
     "msrp_usd": 51000,
     "msrp_estimated": true,
     "seats": null,
-    "mpg_city": 21,
-    "mpg_highway": 29,
-    "mpg_combined": 24,
+    "mpg_city": 29,
+    "mpg_highway": 31,
+    "mpg_combined": 30,
     "fuel_type": "Regular Gasoline",
     "color_options": [
       "Infinite Black",
@@ -3288,7 +3288,7 @@
     },
     "source_urls": {
       "manufacturer": "https://www.lincoln.com/vehicles/nautilus/",
-      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49514",
+      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49515",
       "nhtsa_safety": "https://api.nhtsa.gov/SafetyRatings/VehicleId/21448"
     }
   },
@@ -3797,14 +3797,14 @@
     "year": 2024,
     "body_type": "SUV",
     "has_awd": true,
-    "is_hybrid": false,
+    "is_hybrid": true,
     "price_tier": "low",
     "msrp_usd": 31895,
     "msrp_estimated": false,
     "seats": null,
-    "mpg_city": 27,
-    "mpg_highway": 32,
-    "mpg_combined": 29,
+    "mpg_city": 40,
+    "mpg_highway": 34,
+    "mpg_combined": 37,
     "fuel_type": "Regular Gasoline",
     "color_options": [
       "Sonic Gray Pearl",
@@ -3836,7 +3836,7 @@
     },
     "source_urls": {
       "manufacturer": "",
-      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46715",
+      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46716",
       "nhtsa_safety": "https://api.nhtsa.gov/SafetyRatings/VehicleId/19599"
     }
   },
@@ -3847,14 +3847,14 @@
     "year": 2025,
     "body_type": "SUV",
     "has_awd": true,
-    "is_hybrid": false,
+    "is_hybrid": true,
     "price_tier": "low",
     "msrp_usd": 32800,
     "msrp_estimated": false,
     "seats": null,
-    "mpg_city": 26,
-    "mpg_highway": 31,
-    "mpg_combined": 28,
+    "mpg_city": 40,
+    "mpg_highway": 34,
+    "mpg_combined": 37,
     "fuel_type": "Regular Gasoline",
     "color_options": [
       "Sonic Gray Pearl",
@@ -3888,7 +3888,7 @@
     },
     "source_urls": {
       "manufacturer": "",
-      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47956",
+      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47957",
       "nhtsa_safety": "https://api.nhtsa.gov/SafetyRatings/VehicleId/20064"
     }
   },
@@ -3899,14 +3899,14 @@
     "year": 2026,
     "body_type": "SUV",
     "has_awd": true,
-    "is_hybrid": false,
+    "is_hybrid": true,
     "price_tier": "low",
     "msrp_usd": 33800,
     "msrp_estimated": true,
     "seats": null,
-    "mpg_city": 27,
-    "mpg_highway": 31,
-    "mpg_combined": 29,
+    "mpg_city": 40,
+    "mpg_highway": 34,
+    "mpg_combined": 37,
     "fuel_type": "Regular Gasoline",
     "color_options": [
       "Sonic Gray Pearl",
@@ -3942,7 +3942,7 @@
     },
     "source_urls": {
       "manufacturer": "",
-      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49487",
+      "fuel_economy": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49488",
       "nhtsa_safety": "https://api.nhtsa.gov/SafetyRatings/VehicleId/20886"
     }
   },
