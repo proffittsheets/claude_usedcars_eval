@@ -1,0 +1,9 @@
+# Copy this file to terraform.tfvars and fill in your values.
+# terraform.tfvars is gitignored and never committed.
+
+aws_region  = "us-east-1"
+aws_profile = "default"             # name of your local AWS CLI profile
+bucket_name = "sheets-car-vision-board"   # must be globally unique — change if taken
+
+# Optional — default is PriceClass_100 (US + Europe, cheapest)
+# price_class = "PriceClass_100"
