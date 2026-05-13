@@ -18,6 +18,7 @@ secrets.json
 
 # Terraform
 infrastructure/terraform.tfvars
+infrastructure/backend.hcl
 infrastructure/.terraform/
 infrastructure/.terraform.lock.hcl
 infrastructure/terraform.tfstate

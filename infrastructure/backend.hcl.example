@@ -1,0 +1,9 @@
+# Copy this to backend.hcl (gitignored) and fill in your values.
+# The state bucket must exist before running terraform init.
+# See README for bootstrap instructions.
+
+bucket       = "your-terraform-state-bucket-name"
+key          = "car-vision-board/terraform.tfstate"
+region       = "us-east-1"
+use_lockfile = true
+encrypt      = true

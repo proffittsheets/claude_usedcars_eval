@@ -19,10 +19,11 @@ This repo is public. Nothing in the committed files contains credentials, accoun
 
 | File | What it contains |
 |------|-----------------|
-| `versions.tf` | Terraform version constraints and provider requirements |
+| `versions.tf` | Terraform version constraints, provider requirements, and backend type |
 | `variables.tf` | Variable declarations — names and types only, no values |
 | `main.tf` | All resource definitions |
 | `outputs.tf` | Output definitions — site URL, bucket name, distribution ID |
+| `backend.hcl.example` | Template showing the shape of the backend config |
 | `terraform.tfvars.example` | Template showing which variables need values |
 | `deploy.sh` | Script to build, sync files to S3, and invalidate the CloudFront cache |
 
@@ -30,16 +31,17 @@ This repo is public. Nothing in the committed files contains credentials, accoun
 
 | File/pattern | Why |
 |-------------|-----|
-| `terraform.tfvars` | Contains your bucket name and other config specific to your account |
+| `backend.hcl` | Contains your state bucket name, region, and lock settings |
+| `terraform.tfvars` | Contains your site bucket name and other config specific to your account |
 | `.terraform/` | Provider binaries downloaded on init |
 | `.terraform.lock.hcl` | Lock file generated on init |
-| `terraform.tfstate`, `terraform.tfstate.backup` | State files containing live resource IDs |
+| `terraform.tfstate`, `terraform.tfstate.backup` | State files — stored remotely in S3, never locally |
 
 ---
 
 ## Prerequisites
 
-- [Terraform](https://developer.hashicorp.com/terraform/install) >= 1.6
+- [Terraform](https://developer.hashicorp.com/terraform/install) >= 1.10
 - [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html) configured with a local profile (`aws configure`)
 - An AWS account with permissions to create S3, CloudFront, and IAM resources
 
@@ -47,26 +49,50 @@ Terraform uses the standard AWS credential chain — it picks up `~/.aws/credent
 
 ---
 
+## One-time bootstrap
+
+Terraform stores its state in S3, using S3's native conditional writes for locking (requires Terraform >= 1.10 — no DynamoDB table needed). The bucket must exist before you can run `terraform init`. Create it once manually:
+
+```bash
+# Create the state bucket (pick any unique name)
+aws s3api create-bucket \
+  --bucket your-tf-state-bucket \
+  --region us-east-1
+
+# Enable versioning so you can recover from accidental state corruption
+aws s3api put-bucket-versioning \
+  --bucket your-tf-state-bucket \
+  --versioning-configuration Status=Enabled
+```
+
+---
+
 ## First-time setup
 
-1. **Create your variables file** (gitignored):
+1. **Create your backend config** (gitignored):
    ```bash
    cd infrastructure
-   cp terraform.tfvars.example terraform.tfvars
-   # Edit terraform.tfvars with your bucket name and AWS profile
+   cp backend.hcl.example backend.hcl
+   # Edit backend.hcl with your state bucket name
    ```
 
-2. **Initialize Terraform:**
+2. **Create your variables file** (gitignored):
    ```bash
-   terraform init
+   cp terraform.tfvars.example terraform.tfvars
+   # Edit terraform.tfvars with your site bucket name and AWS profile
    ```
 
-3. **Preview what will be created:**
+3. **Initialize Terraform:**
+   ```bash
+   terraform init -backend-config=backend.hcl
+   ```
+
+4. **Preview what will be created:**
    ```bash
    terraform plan
    ```
 
-4. **Apply:**
+5. **Apply:**
    ```bash
    terraform apply
    ```
